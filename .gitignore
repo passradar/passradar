@@ -1,0 +1,24 @@
+# Gradle and build output
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine settings
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Signing secrets – never commit these
+keystore.properties
+*.jks
+*.keystore
+
+# Python
+__pycache__/
+
+# Built APKs handed out locally
+dist/

@@ -1,0 +1,20 @@
+Appointments at the Norwegian police's passport and ID offices are often booked up for weeks or months, but cancellations happen all the time. Passvarsling follows the offices you can travel to and tells you when an earlier appointment becomes free.
+
+<b>Features</b>
+<ul>
+<li>Notifications when an earlier appointment opens up at the offices you follow – follow as many offices as you like</li>
+<li>Your choice: any earlier appointment, appointments within a number of weeks, or before a date</li>
+<li>Waiting time for every office, with the offices you follow on top and the rest sorted by distance from you</li>
+<li>Colour-coded map of waiting times (map data from Kartverket)</li>
+<li>Calendar of free dates and times for each office</li>
+<li>Opens the police's booking page with office and service already selected</li>
+<li>Every service in the booking system, for 1–9 people</li>
+<li>Light and dark theme, modern "liquid glass" design</li>
+<li>Helps you turn off battery optimisation and Battery Saver so alerts arrive on time</li>
+<li>Works on Android 5.0 and newer</li>
+</ul>
+
+<b>Free and private</b>
+No server, no account, no ads and no tracking. Your phone checks the police's public appointment booking itself, never more often than every 15 minutes and only for the offices you follow. Your approximate location is only used to work out distances and never leaves the phone. You book the appointment yourself on the police's website.
+
+Passvarsling is open source (GPL-3.0) and independent – not affiliated with or endorsed by the Norwegian Police. Source of the appointment data: the police's booking site, https://pass-og-id.politiet.no/timebestilling/

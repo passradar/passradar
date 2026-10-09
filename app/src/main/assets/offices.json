@@ -1,0 +1,1824 @@
+[
+ {
+  "id": "87b817ccaa51b6f29256aeb0a1ab883b47e6a08434ebf8813b4e61d413e5199c",
+  "name": "Alstahaug og Leirfjord politistasjon",
+  "street": "Torolv Kveldsulvsons gate 27",
+  "zip": "8800",
+  "city": "Sandnessjøen",
+  "lat": 66.02268,
+  "lon": 12.63557,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "3279363f9212c599307e3fdc1eae5cb3a9eed1eca5c2b42c13878c39a2328326",
+  "name": "Alta politistasjon",
+  "street": "Labyrinten 1",
+  "zip": "9510",
+  "city": "Alta",
+  "lat": 69.9645,
+  "lon": 23.27093,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "888a8097cecf2eccb6c811e8a2d86ebfd272d6fdb2f59c8afd8a4d8042cfd898",
+  "name": "Arendal og Froland politistasjon",
+  "street": "Åsbieveien 39",
+  "zip": "4848",
+  "city": "Arendal",
+  "lat": 58.46053,
+  "lon": 8.72563,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "58fd1fc0f9c3169e1d365575511cfb339c50b5db5cb26113bc95592fc9636a68",
+  "name": "Bardu politistasjon",
+  "street": "Infanteriveien 9",
+  "zip": "9360",
+  "city": "Bardu",
+  "lat": 68.8599,
+  "lon": 18.3542,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "d7b7dfe29e507f78dff90f35d540095f4d4eea1a78be9b1299b375e7ca30f227",
+  "name": "Bergen Vest politistasjon",
+  "street": "Krokatjønnveien 15",
+  "zip": "5147",
+  "city": "Fyllingsdalen",
+  "lat": 60.34758,
+  "lon": 5.27606,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7739c0f2a5d78841ea0c6e94053d75d64efbeb2a4a0ec0ba281fb33c851d5761",
+  "name": "Bjørnafjorden politistasjon",
+  "street": "Mobergsbakken 109",
+  "zip": "5209",
+  "city": "Os",
+  "lat": 60.18252,
+  "lon": 5.45267,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "f52ba1f28907d88cc45c9453daa273148c2f990808a1eba8a6f507deef4a723a",
+  "name": "Bodø politistasjon",
+  "street": "Kongensgate 81",
+  "zip": "8006",
+  "city": "Bodø",
+  "lat": 67.2839,
+  "lon": 14.38201,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "282ca2e6afc0a69740a3a8d8b0f6087ae441da6cc1ea1c3d1303d94037091194",
+  "name": "Brønnøysund politistasjon",
+  "street": "Russesletta 3",
+  "zip": "8907",
+  "city": "Brønnøysund",
+  "lat": 65.4938,
+  "lon": 12.2418,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "e8cfd353ad2e1f03432faa6d1c1ea3401102eb0bf7e8f9e9fe0e2607f867a8a0",
+  "name": "Bærum politistasjon",
+  "street": "Kjørboveien 33",
+  "zip": "1337",
+  "city": "Sandvika",
+  "lat": 59.88606,
+  "lon": 10.52443,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4",
+   "af8dff2199e23e84b3c0172c4b04b45dfcf5e266e5b489cdca32c6fe88f603ef"
+  ]
+ },
+ {
+  "id": "0ea2394ac17c4220b28c724c32ef0284ef2405b1df7fdbab24e98d699545b24a",
+  "name": "Drammen politistasjon",
+  "street": "Grønland 36",
+  "zip": "3045",
+  "city": "Drammen",
+  "lat": 59.74256,
+  "lon": 10.19617,
+  "services": [
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "8ff00779c318c471c0d414cd1f055e1849779b1887131129362daa1ae82b116b",
+  "name": "Egersund politistasjon",
+  "street": "Strandgaten 18",
+  "zip": "4370",
+  "city": "Egersund",
+  "lat": 58.44942,
+  "lon": 5.994,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "12b2d60319641ea9240b00a4baa7568988b7af327d8ab5a5596f2a2ef496f22a",
+  "name": "Elverum politistasjon",
+  "street": "Elvarheimgata 10",
+  "zip": "2408",
+  "city": "Elverum",
+  "lat": 60.88198,
+  "lon": 11.56054,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "0658e32534f0e4ceeff77edeffae2e641c40cedc6a9edc27c40d260968e07f23",
+  "name": "Etne og Vindafjord politistasjon",
+  "street": "Dreganesvegen 8",
+  "zip": "5580",
+  "city": "Ølen",
+  "lat": 59.60488,
+  "lon": 5.81081,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "1da3d407da965ec0f39af67d36275f4b7106c7a5ea5b386209b9ec843ec7ac5e",
+  "name": "Fagernes politistasjon",
+  "street": "Jernbanevegen",
+  "zip": "2900",
+  "city": "Fagernes",
+  "lat": 60.98575,
+  "lon": 9.234,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4",
+   "af8dff2199e23e84b3c0172c4b04b45dfcf5e266e5b489cdca32c6fe88f603ef"
+  ]
+ },
+ {
+  "id": "aaa47bdec3a7a5ca76b6ef38e9991caf849eca10a3a0841c5abaa70fffcea812",
+  "name": "Farsund og Lyngdal politistasjon",
+  "street": "Lauervik Terrasse 18",
+  "zip": "4550",
+  "city": "Farsund",
+  "lat": 58.08588,
+  "lon": 6.78448,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "eade94a3087e41510ecf889df3995032fee74831c13c868ade0b23ef40be04f1",
+  "name": "Fauske politistasjon",
+  "street": "Storgata 83",
+  "zip": "8201",
+  "city": "Fauske",
+  "lat": 67.25945,
+  "lon": 15.39333,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "55416a725399ddbb52fff9f70f317f6d339275059bdcb9f32f3b1b03a268f5a6",
+  "name": "Finnsnes politistasjon",
+  "street": "Hans Karoliusvei 6",
+  "zip": "9300",
+  "city": "Finnsnes",
+  "lat": 69.2332,
+  "lon": 18.08356,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "0e59344e37e4390b630494e2ced9e86936faab764497b16e51737ae3ab698b4e",
+  "name": "Flisa politistasjon",
+  "street": "Industrivegen 4",
+  "zip": "2270",
+  "city": "Flisa",
+  "lat": 60.61376,
+  "lon": 12.02031,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "43ee435022fb728fc94a96e172b137017a4cf3954c17676a6f379151b1e73613",
+  "name": "Florø politistasjon",
+  "street": "Strandavegen 13",
+  "zip": "6901",
+  "city": "Florø",
+  "lat": 61.59955,
+  "lon": 5.03285,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "38d51e979f13602dd0da0c5a9956482251be3ec1a5e45db63e046fb6f264d4b7",
+  "name": "Førde politistasjon",
+  "street": "Hafstadvegen 51",
+  "zip": "6800",
+  "city": "Førde",
+  "lat": 61.44935,
+  "lon": 5.86885,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "444a3fac353a44ab43bdc6d2b832a25d4ade4230dde93db2f92215d7faabb554",
+  "name": "Gjøvik politistasjon",
+  "street": "Strandgata 36",
+  "zip": "2821",
+  "city": "Gjøvik",
+  "lat": 60.7989,
+  "lon": 10.6919,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "65f59672ce9b839e2ebfa29137da0c7843ed4b39d401ed47c623e2c2f23697aa",
+  "name": "Gran politistasjon",
+  "street": "Morstadvegen 37",
+  "zip": "2750",
+  "city": "Gran",
+  "lat": 60.35053,
+  "lon": 10.57725,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "335abadd312dc5db2bf1031cea65e0cc4f93a5f3f96bfc794d7e874ffda0d9cc",
+  "name": "Grenland politistasjon",
+  "street": "Myren 7",
+  "zip": "3718",
+  "city": "Skien",
+  "lat": 59.20224,
+  "lon": 9.58861,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c4afbbf5b8fea8ae5b5749370eaa26ae1c405797f39e8b6bfec5f3f96255451e",
+  "name": "Grønland politistasjon",
+  "street": "Grønlandsleiret 44",
+  "zip": "0190",
+  "city": "Oslo",
+  "lat": 59.91076,
+  "lon": 10.7701,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4",
+   "af8dff2199e23e84b3c0172c4b04b45dfcf5e266e5b489cdca32c6fe88f603ef"
+  ]
+ },
+ {
+  "id": "a4bbbc39e65113ba59720574294a97734d3e809b5c53d6decc9be5dbdea65a56",
+  "name": "Hamar politistasjon",
+  "street": "Vangsvegen 155",
+  "zip": "2321",
+  "city": "Hamar",
+  "lat": 60.79604,
+  "lon": 11.09422,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "86ee90efe98936ecd296400637aad2dfbf024d05445d37073ddf18909a54e31a",
+  "name": "Hammerfest politistasjon",
+  "street": "Parkgata 16",
+  "zip": "9600",
+  "city": "Hammerfest",
+  "lat": 70.66338,
+  "lon": 23.67969,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "44bfcd71ead8cedb06cfac8966d899d89b1f13d6ed98cfc62e0b682dab870981",
+  "name": "Hardanger politistasjon",
+  "street": "Røldalsveien 34",
+  "zip": "5750",
+  "city": "Odda",
+  "lat": 60.06743,
+  "lon": 6.54607,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "e3b843cf9121ea50d874bc361ca10db27868c625454d30962b79af08ae73780b",
+  "name": "Harstad politistasjon",
+  "street": "Øysteins gate 8",
+  "zip": "9405",
+  "city": "Harstad",
+  "lat": 68.80063,
+  "lon": 16.54017,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a5cb8090ab3cadc95b8e94fc2f90c7700e391b9fc0d2a1a31cbd54157d86eff1",
+  "name": "Heimdal politistasjon",
+  "street": "Johan Tillers vei 1",
+  "zip": "7080",
+  "city": "Heimdal",
+  "lat": 63.34763,
+  "lon": 10.34309,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5aff634708c9e2ad46ebc0b2a8eda7a21cc0b277b0ebbed29fbb16c1814a0911",
+  "name": "Hønefoss politistasjon",
+  "street": "Askveien 4",
+  "zip": "3504",
+  "city": "Hønefoss",
+  "lat": 60.16592,
+  "lon": 10.25576,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "bf64de03e162d7356e1e8991c8b2b49f646a4bf04d6a7fbac9ecb13db65df264",
+  "name": "Kautokeino politistasjon",
+  "street": "Ajastealli 2",
+  "zip": "9520",
+  "city": "Kautokeino",
+  "lat": 69.0095,
+  "lon": 23.03946,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "642d111a334724d19e7a45275bd82cf549c2ec161e8dc59bc79f5c1e7b585b02",
+  "name": "Kirkenes politistasjon",
+  "street": "Rådhussvingen 1",
+  "zip": "9900",
+  "city": "Kirkenes",
+  "lat": 69.7289,
+  "lon": 30.04191,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "3fd68885eaa1fd188c56838fb476d4a8da7a02a1727d1a3c5842e0949f11b324",
+  "name": "Kongsberg politistasjon",
+  "street": "Dymyrgata 12",
+  "zip": "3612",
+  "city": "Kongsberg",
+  "lat": 59.67407,
+  "lon": 9.66974,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "cfdc05f9ee15105147bba99804ee747092517b5be0c7676fd3816cd4238308f0",
+  "name": "Kongsvinger politistasjon",
+  "street": "Parkvegen 12",
+  "zip": "2212",
+  "city": "Kongsvinger",
+  "lat": 60.19293,
+  "lon": 11.99797,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fea4262ba6db316a87edfba7fa8d43ee0b3a32489e5daa2f44b7be27801d414a",
+  "name": "Kragerø politistasjon",
+  "street": "Kammerfossveien 1",
+  "zip": "3772",
+  "city": "Kragerø",
+  "lat": 58.87503,
+  "lon": 9.36553,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "68f03a0e2ec3c81ca34767e587b5ec7519204b03bb41ed1b749ecb6067a2d016",
+  "name": "Kristiansand politistasjon",
+  "street": "Vestre Strandgate 55",
+  "zip": "4612",
+  "city": "Kristiansand",
+  "lat": 58.14612,
+  "lon": 7.98781,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "365455ec9b2ceb64162009398f03c86535ed472158de6aca5bd54203a2ce1822",
+  "name": "Kristiansund politistasjon",
+  "street": "Storgata 43",
+  "zip": "6508",
+  "city": "Kristiansund",
+  "lat": 63.10834,
+  "lon": 7.72747,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fb563d98190e665c5ffcd2449bc6a615dec031411c94d63562aa0076c34f0beb",
+  "name": "Kvinnherad politistasjon",
+  "street": "Stabburshaugen 5",
+  "zip": "5460",
+  "city": "Husnes",
+  "lat": 59.86315,
+  "lon": 5.76162,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a2a38ea1aaf8a6f7ff54c508993a691a2992ed049048fff085d069476ab7d136",
+  "name": "Lillehammer politistasjon",
+  "street": "Storgata 129",
+  "zip": "2615",
+  "city": "Lillehammer",
+  "lat": 61.12092,
+  "lon": 10.46218,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "ade384d92eaade425f205a3793be4024c8c2736313b3d6ffd0f1d5078f8ef667",
+  "name": "Lyngen politistasjon",
+  "street": "Skibotsveien 285",
+  "zip": "9143",
+  "city": "Skibotn",
+  "lat": 69.38829,
+  "lon": 20.27478,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5579694d2b47504402b6b30d67cb3c40ffb3ba23a0b747f804edafb9bf38ff42",
+  "name": "Lærdal politistasjon",
+  "street": "Øyraplassen 4",
+  "zip": "6887",
+  "city": "Lærdal",
+  "lat": 61.09823,
+  "lon": 7.48212,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a8022e3e8f1bcb2ceb91c214e4f6eaa9f6fbf9e74c4166f2268935da0fd86792",
+  "name": "Midtre Hallingdal politistasjon",
+  "street": "Sentrumsvegen 58",
+  "zip": "3550",
+  "city": "Gol",
+  "lat": 60.70044,
+  "lon": 8.95087,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "4aa7d11760d8767f8e9ee79a361c4d1ac9f7857e104bb0a11b07a3a74a8ef654",
+  "name": "Mo I Rana politistasjon",
+  "street": "Midtre gate 9",
+  "zip": "8626",
+  "city": "Mo i Rana",
+  "lat": 66.30951,
+  "lon": 14.2066,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c9dfff7e10b44fb0891578bd498b5fed289a450f5c5eedb323c1589c186a538b",
+  "name": "Mobilt pass- og ID-kontor Andenes",
+  "street": "Roald Amundsensgate 10, 8480",
+  "zip": "8480",
+  "city": "Andenes",
+  "lat": 69.32049,
+  "lon": 16.12207,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "6e84aab128d2b2d1289aae2cd2766531989fdecbbbf2cfa47c66bc62df92e7cc",
+  "name": "Mobilt pass- og ID-kontor Askvoll",
+  "street": "Askvollvegen 426 A",
+  "zip": "6980",
+  "city": "Askvoll",
+  "lat": 61.34538,
+  "lon": 5.06275,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fc79316835c4b116d253b31f4ed9035be312b1784163e3017e0e2ee9d10bda6c",
+  "name": "Mobilt pass- og ID-kontor Austevoll",
+  "street": "Indreholmen 38",
+  "zip": "5392",
+  "city": "Storebø",
+  "lat": 60.08964,
+  "lon": 5.24901,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "0021e0ae80fb459545db9d6f446d5526f56ccc8988fe7c4c99c28b4e69f3fd8e",
+  "name": "Mobilt pass- og ID-kontor Berlevåg",
+  "street": "Søndregate 19",
+  "zip": "9980",
+  "city": "Berlevåg",
+  "lat": 70.85499,
+  "lon": 29.08761,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "685b8fa7577aa1a6459c0a717b9a6428a804435437f9938b1deb52547128e90c",
+  "name": "Mobilt pass- og ID-kontor Burfjord",
+  "street": "Fv364 1190",
+  "zip": "9161",
+  "city": "Burfjord",
+  "lat": 69.9332,
+  "lon": 22.03714,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "4710902b7a5d218cb2e4241a3e99afc831dfe76592b4835b3dee82966a74cc9d",
+  "name": "Mobilt pass- og ID-kontor Båtsfjord",
+  "street": "Fjordveien 13",
+  "zip": "9990",
+  "city": "Båtsfjord",
+  "lat": 70.62819,
+  "lon": 29.69734,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "b9175bbdc3d651f5bf376041fdaccea56545b77078f00446c592faaa69742a4d",
+  "name": "Mobilt pass- og ID-kontor Evje",
+  "street": "Verksvegen 4",
+  "zip": "4735",
+  "city": "Evje",
+  "lat": 58.58386,
+  "lon": 7.79931,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5b78c5093c21f26a96adebb15ebb9d9f20c633b21c14df59a5a0a67811b0d1cb",
+  "name": "Mobilt pass- og ID-kontor Fedje",
+  "street": "Kalvedalen 1",
+  "zip": "5947",
+  "city": "Fedje",
+  "lat": 60.77897,
+  "lon": 4.71929,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5277f863cf3a93cddc8e82c702eace1425e51c2a5fbe1d37d1ab8f562bbcb752",
+  "name": "Mobilt pass- og ID-kontor Grong",
+  "street": "Torget",
+  "zip": "7870",
+  "city": "Grong",
+  "lat": 64.50224,
+  "lon": 12.71101,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "e16871d68096d8f45095139a4eb06cc70e4a21707296e448b1e7eb42d6ccdb82",
+  "name": "Mobilt pass- og ID-kontor Gryllefjord",
+  "street": "Heredshusveien 11",
+  "zip": "9380",
+  "city": "Gryllefjord",
+  "lat": 69.36187,
+  "lon": 17.05383,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "1cd4c227d91861070b589be2eb29a52cd8b4842b8166b08fd35a521996f72e8c",
+  "name": "Mobilt pass- og ID-kontor Gulen",
+  "street": "Eivindvikvegen 1119",
+  "zip": "5966",
+  "city": "Eivindvik",
+  "lat": 60.98193,
+  "lon": 5.07436,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "2bf06fe94d00f40bf9518208538ce52eaa6ef35de789bab8e77d94016391a3aa",
+  "name": "Mobilt pass- og ID-kontor Hansnes",
+  "street": "Karlsøy politistasjon",
+  "zip": "9130",
+  "city": "Hansnes",
+  "lat": 69.96281,
+  "lon": 19.62089,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a7b1721150475f30bf44f30ee35033144007d598370e0a92fa2dfebd2687e375",
+  "name": "Mobilt pass- og ID-kontor Havøysund",
+  "street": "Strandgaten 158",
+  "zip": "9690",
+  "city": "Havøysund",
+  "lat": 70.996,
+  "lon": 24.66643,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "3f74c088f21ef01241e16441c64418f0fef80c1b031c21acfe96c12cd9f2ff1f",
+  "name": "Mobilt pass- og ID-kontor Hitra",
+  "street": "Rådhusveien 1",
+  "zip": "7240",
+  "city": "Hitra",
+  "lat": 63.6017,
+  "lon": 8.9744,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c603645902c4edecad0474f704b0e2311db6c24e6dc98e6016ea03dc1e0c4f28",
+  "name": "Mobilt pass- og ID-kontor Hjelmeland",
+  "street": "Vågavegen 116",
+  "zip": "4130",
+  "city": "Hjelmeland",
+  "lat": 59.2368,
+  "lon": 6.17932,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "f7111d6c0602b9bd4ec5355cf37de2a025e6b599ef9930d75c9d52383aaba585",
+  "name": "Mobilt pass- og ID-kontor Honningsvåg",
+  "street": "Holmen 2",
+  "zip": "9750",
+  "city": "Honningsvåg",
+  "lat": 70.98134,
+  "lon": 25.96825,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "df378af71aa2bdf4fd6a753733a7c929725fb8b76df1754a0f7b778cd2f9cb26",
+  "name": "Mobilt pass- og ID-kontor Hyllestad",
+  "street": "Lifjordvegen 7",
+  "zip": "6957",
+  "city": "Hyllestad",
+  "lat": 61.17086,
+  "lon": 5.29313,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "125abfc78bd6ffada3ecae12df6e45cbf022e964800cd49f8be65dc9908861af",
+  "name": "Mobilt pass- og ID-kontor Høyanger",
+  "street": "August Gunnarskogsgate 2",
+  "zip": "6993",
+  "city": "Høyanger",
+  "lat": 61.22184,
+  "lon": 6.07325,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "34e44e1a8432475e48fa4a49fa186febaaa098fe79c4d09052a4500c675db112",
+  "name": "Mobilt pass- og ID-kontor Ibestad",
+  "street": "Kopparvika 2",
+  "zip": "9450 Hamnvik",
+  "city": "Ibestad",
+  "lat": 68.77856,
+  "lon": 17.17485,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7c49ed12f3f6cf228bb62a0613883ac527715b6b694b229be0d7654a01e4d66f",
+  "name": "Mobilt pass- og ID-kontor Innhavet",
+  "street": "Finnøyveien 68",
+  "zip": "8260",
+  "city": "Innhavet",
+  "lat": 67.96917,
+  "lon": 15.92361,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c6d27d196e7cfa01254462cb03d077007bf24411756a0e3663aff9aa412ac920",
+  "name": "Mobilt pass- og ID-kontor Karasjok",
+  "street": "Fitnodatgeaidnu 25",
+  "zip": "9730",
+  "city": "Karasjok",
+  "lat": 69.47314,
+  "lon": 25.51318,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "266754180f5dd833a8a4258a7a9de05d2fd2f2473c61aa08eb220cef5bd11235",
+  "name": "Mobilt pass- og ID-kontor Kjøllefjord",
+  "street": "Strandveien 177",
+  "zip": "9790",
+  "city": "Kjøllefjord",
+  "lat": 70.94595,
+  "lon": 27.34506,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c70bba87e568e1d69e90d03858e1adc9c206d1b729047c2b7e43888cfac87805",
+  "name": "Mobilt pass- og ID-kontor Koppang",
+  "street": "Storgata 99",
+  "zip": "2480",
+  "city": "Koppang",
+  "lat": 61.57045,
+  "lon": 11.04974,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "bd41a65a2a9e4b8722453cd7f48642d2e632ea26ca346721164dc286d1a8e2de",
+  "name": "Mobilt pass- og ID-kontor Leinesfjorden i Steigen",
+  "street": "Myklebostad 1",
+  "zip": "8283",
+  "city": "Leinesfjord",
+  "lat": 67.77624,
+  "lon": 15.01616,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "6144053a90086f3b7ad555dc5b46b79738b79b281969900fb5d5f8751c20236a",
+  "name": "Mobilt pass- og ID-kontor Leknes",
+  "street": "Storgata 105",
+  "zip": "8370",
+  "city": "Leknes",
+  "lat": 68.14568,
+  "lon": 13.60312,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5c08f25953914b71df18e0fbdf495b09170feb303f8f87b13dc99f34b22af998",
+  "name": "Mobilt pass- og ID-kontor Lesja",
+  "street": "Jakup B. Klukstadsveg 32",
+  "zip": "2665",
+  "city": "Lesja",
+  "lat": 62.11844,
+  "lon": 8.80698,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c8441be8d1b07673674e14c08a715a5bf6b4ec8a1d7bfe1b6a6d50ea50cec835",
+  "name": "Mobilt pass- og ID-kontor Lom",
+  "street": "Stupulvegen 3",
+  "zip": "2686",
+  "city": "Lom",
+  "lat": 61.84046,
+  "lon": 8.57013,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "268b0a8c77e86fe263634f4155a4279369aa990d4759b0863feacb64b9d2ca51",
+  "name": "Mobilt pass- og ID-kontor Lyngseidet",
+  "street": "Strandveien 24",
+  "zip": "9060",
+  "city": "Lyngseidet",
+  "lat": 69.57452,
+  "lon": 20.21926,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "235d6f759c8cc56a646de540642ed1e333735760e47fff076d87a3d423c4f94d",
+  "name": "Mobilt pass- og ID-kontor Malangen",
+  "street": "Malangenveien 850",
+  "zip": "9055",
+  "city": "Meistervik",
+  "lat": 69.33202,
+  "lon": 18.89064,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "0b5453ea13eddf6b0ed951f05ad313d9a84801549065a894db784cfd9346f6ee",
+  "name": "Mobilt pass- og ID-kontor Masfjorden",
+  "street": "Fensfjordvegen 615",
+  "zip": "5986",
+  "city": "Hosteland",
+  "lat": 60.83437,
+  "lon": 5.26313,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "ad984818c5e501171fb4583ed252fe100c42716faa0a53b068c7971bc5ec01c6",
+  "name": "Mobilt pass- og ID-kontor Mehamn",
+  "street": "HV-bygget ved flyplassen",
+  "zip": "9770",
+  "city": "Mehamn",
+  "lat": 71.0316,
+  "lon": 27.84717,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "df1ca0f80c79c6f46f30b432ec73679dbd053e44f7cc934527527488c04ee7fb",
+  "name": "Mobilt pass- og ID-kontor Nissedal",
+  "street": "Treungvegen 380",
+  "zip": "3880",
+  "city": "Treungen",
+  "lat": 59.46151,
+  "lon": 7.85501,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5c69f8942585b0d02b192bc916a299fa7861b03d8f417c8b867a9d3b8331d0e8",
+  "name": "Mobilt pass- og ID-kontor Nordkjosbotn",
+  "street": "Industriveien 2",
+  "zip": "9040",
+  "city": "Nordkjosbotn",
+  "lat": 69.21269,
+  "lon": 19.55686,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "6b5648c6618bbb2269455b65a30c2f887ba785b09a0c702f097e656a844a9ab2",
+  "name": "Mobilt pass- og ID-kontor Nore og Uvdal",
+  "street": "Kioskgården",
+  "zip": "3630",
+  "city": "Rødberg",
+  "lat": 60.21875,
+  "lon": 8.89443,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "01a593d92c647d07a2d1a5fec55ccb35992b3df02efadc94ff8d7f71b15e70c3",
+  "name": "Mobilt pass- og ID-kontor Norheimsund",
+  "street": "Steinsdalsvegen 104",
+  "zip": "5600",
+  "city": "Nordheimsund",
+  "lat": 60.36945,
+  "lon": 6.12711,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "972c41a113325e2f43d94c08ea1fbe6958cd458917774b028fc9fc3128b36e62",
+  "name": "Mobilt pass- og ID-kontor Rjukan",
+  "street": "Sam Eydesgate 71",
+  "zip": "3660",
+  "city": "Rjukan",
+  "lat": 59.88016,
+  "lon": 8.6292,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5332fe3167f87fe7215f88054a3e4de584813b1b3633efc80bc93fa45774c445",
+  "name": "Mobilt pass- og ID-kontor Røst",
+  "street": "Røstlandsveien 37",
+  "zip": "8064",
+  "city": "Røst",
+  "lat": 67.51727,
+  "lon": 12.11573,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "4e0f51d5d57dd5998b468594a2fcdafe12e9bffa1c49124971c1971e0c702c21",
+  "name": "Mobilt pass- og ID-kontor Sirdal",
+  "street": "Tonstadveien 2",
+  "zip": "4440",
+  "city": "Tonstad",
+  "lat": 58.66882,
+  "lon": 6.71431,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "66a8dcd57473c36543ce7abdcf0c3a33f327e8028d7b70b3d2b1ed3f7d0827f4",
+  "name": "Mobilt pass- og ID-kontor Sjøvegan",
+  "street": "Strandveien 33",
+  "zip": "9350",
+  "city": "Sjøvegen",
+  "lat": 68.87225,
+  "lon": 17.84455,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fe867b58f306d7709ffd3d61f214473de7f4c73ddcdfdf1e24d9b6b5644732e1",
+  "name": "Mobilt pass- og ID-kontor Skjervøy",
+  "street": "Strandveien 47",
+  "zip": "9180",
+  "city": "Skjervøy",
+  "lat": 69.94092,
+  "lon": 20.66408,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "775f75e70caecc7e34ccebfae37abb66acc40aa68fc1ced2cb0a86a1538de546",
+  "name": "Mobilt pass- og ID-kontor Smøla",
+  "street": "Rådhusveien 14",
+  "zip": "6570",
+  "city": "Smøla",
+  "lat": 63.45967,
+  "lon": 8.01157,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "99da6f00d9b145a8601b39ff10afa2f3129195684d2401792097b75c09a7102a",
+  "name": "Mobilt pass- og ID-kontor Solund",
+  "street": "Hardbakke 26",
+  "zip": "6924",
+  "city": "Hardbakke",
+  "lat": 61.07391,
+  "lon": 4.83885,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "4f4dbdd5873da8309159d54ddc4f6187d7256c0774dddec371e9182533ec54f5",
+  "name": "Mobilt pass- og ID-kontor Sommarøy",
+  "street": "Hillesøyvegen 204",
+  "zip": "9110",
+  "city": "Sommarøy",
+  "lat": 69.63561,
+  "lon": 18.00416,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "90c7e542b1cf3f9b1ae3f627ff6dfdc47ade28d761f2019c01db35f977e8c568",
+  "name": "Mobilt pass- og ID-kontor Tromvik",
+  "street": "Tromtindvegen 215",
+  "zip": "9107",
+  "city": "Tromvik",
+  "lat": 69.77314,
+  "lon": 18.40622,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "4057d97440839bc9f67c2e992ab7f4c28b46d2d76b88f4221e4b514d878bbdbc",
+  "name": "Mobilt pass- og ID-kontor Trysil",
+  "street": "Storvegen 3",
+  "zip": "2420",
+  "city": "Trysil",
+  "lat": 61.31586,
+  "lon": 12.26281,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "e94aa9ef71135d02c456ad4df215bd328dcbd467b611110b77b81938419c18a0",
+  "name": "Mobilt pass- og ID-kontor Tydal",
+  "street": "Tydalsvegen 125",
+  "zip": "7590",
+  "city": "Tydal",
+  "lat": 63.04485,
+  "lon": 11.65052,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fbac4aee667cc1159241ccbaf3d329d714758a12f8f09eea4ea4338acd3802ef",
+  "name": "Mobilt pass- og ID-kontor Tysnes",
+  "street": "Hegglandsvegen 19 B",
+  "zip": "5680",
+  "city": "Tysnes",
+  "lat": 60.04644,
+  "lon": 5.5232,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "434ec7cc66cf1014165595a063d30f7007f6c467747ec40fbe0559e6c5bab1e0",
+  "name": "Mobilt pass- og ID-kontor Utsira",
+  "street": "Utsiravegen 122",
+  "zip": "5547",
+  "city": "Utsira",
+  "lat": 59.29764,
+  "lon": 4.89445,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "3c335ac9b13be937a1e8ad5f58f2b0239380476af3b1167867c2cdf26d315305",
+  "name": "Mobilt pass- og ID-kontor Valldal",
+  "street": "Olavsgate 10",
+  "zip": "6210",
+  "city": "Valldal",
+  "lat": 62.29893,
+  "lon": 7.2618,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "03053a2db36d226c9ad2a5b13962c838cceec3c87f7f80dcc1c794e2ea681ae5",
+  "name": "Mobilt pass- og ID-kontor Valle",
+  "street": "Kjellebergsveien 12",
+  "zip": "4747",
+  "city": "Valle",
+  "lat": 59.21185,
+  "lon": 7.53174,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "6d98a27c906cdb9af30d6d76c22dca8dd791438b85d0e34ae3fc54bf91dcfcbd",
+  "name": "Mobilt pass- og ID-kontor Vanylven",
+  "street": "Vanylven Rådshus",
+  "zip": "6139",
+  "city": "Fiskå",
+  "lat": 62.10066,
+  "lon": 5.55788,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "cc8b5449a3ead406488a9a8a7294cf8e634b8d6ab49fabc7dc1e1ca84e7b667b",
+  "name": "Mobilt pass- og ID-kontor Vik",
+  "street": "Vikjatunet",
+  "zip": "6891",
+  "city": "Vik",
+  "lat": 61.08743,
+  "lon": 6.57911,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "809f682e2361692c40b7e5c908f7f3161dae52b0a3c875781456299851c2aa55",
+  "name": "Mobilt pass- og ID-kontor Værøy",
+  "street": "Sørland 33",
+  "zip": "8063",
+  "city": "Værøy",
+  "lat": 67.66374,
+  "lon": 12.69326,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "9480249118fa5d5a11b374f855a31f37a45a8c70a0ba2f699f61bf7f1fd69422",
+  "name": "Mobilt pass- og ID-kontor Øksfjord",
+  "street": "Kirkeveien 4",
+  "zip": "9550",
+  "city": "Øksfjord",
+  "lat": 70.24057,
+  "lon": 22.35089,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "07adbf66481a4c1e6daa4f9108db8592618ed9614b8a4646d130d1dabdac8825",
+  "name": "Mobilt pass- og ID-kontor Ørnes",
+  "street": "",
+  "zip": "8150",
+  "city": "Ørnes",
+  "lat": 66.87577,
+  "lon": 13.70397,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7061dd329fe740521cf2f695221eed61d664049076fc9b3323b2ca784b0d2017",
+  "name": "Molde politistasjon",
+  "street": "Strandgata 2",
+  "zip": "6415",
+  "city": "Molde",
+  "lat": 62.73735,
+  "lon": 7.16451,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a5eebb15f706873c7399e7d52f0c98d400fe8e0ef4ac3ea875124e4012585466",
+  "name": "Mosjøen politistasjon",
+  "street": "Skjervgata 41",
+  "zip": "8656",
+  "city": "Mosjøen",
+  "lat": 65.83988,
+  "lon": 13.19487,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "e2f5e5f4ea8df89d50fc3caef3705519ce697b22f11f466ef86ddf2ca78aa436",
+  "name": "Namsos politistasjon",
+  "street": "Sandgata 13",
+  "zip": "7801",
+  "city": "Namsos",
+  "lat": 64.46558,
+  "lon": 11.49784,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "71d39130b055229bc22fe182dba7204785552181a54b5b4bd710fd89287394b8",
+  "name": "Narvik politistasjon",
+  "street": "Kongens gate 14-18",
+  "zip": "8514",
+  "city": "Narvik",
+  "lat": 68.41485,
+  "lon": 17.43048,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "407d47f595a2e79871a88e57359f789cd7b9bdc2dd8f747136d51c6e0ee2aa30",
+  "name": "Nordhordland politistasjon",
+  "street": "Kvernhushaugane 2",
+  "zip": "5914",
+  "city": "Isdalstø",
+  "lat": 60.54793,
+  "lon": 5.28869,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "4cae8fc9840ef4c8b84fe0f556f8a09ca36aa4e17948c29e9e30e2e579f8f94d",
+  "name": "Nordreisa og Kvænangen politistasjon",
+  "street": "Sentrum 11",
+  "zip": "9151",
+  "city": "Storslett",
+  "lat": 69.76765,
+  "lon": 21.02648,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "c4dfc82abc32b9e5994d902cd42ed0eac1d8e0513a369b841b021cf1e21b5edb",
+  "name": "Notodden politistasjon",
+  "street": "Heddalsveien 28",
+  "zip": "3674",
+  "city": "Notodden",
+  "lat": 59.5582,
+  "lon": 9.2546,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "29333c2a1ac07acbca01e3cbb684c604e9be0d96dd306b207e1ebb3b06fbe74b",
+  "name": "Nærøy politistasjon",
+  "street": "foldavegen 4655",
+  "zip": "7970",
+  "city": "Kolvereid",
+  "lat": 64.86782,
+  "lon": 11.60576,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "899cf7b06941d67e79601fe02f9274bf66018118efed29ed0d3c98dd853a5cb2",
+  "name": "Oppdal politistasjon",
+  "street": "Rådhuset, Inge Krokanns veg 2",
+  "zip": "7340",
+  "city": "Oppdal",
+  "lat": 62.5951,
+  "lon": 9.68757,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "6aabb5497793a7a45f44af72aecb111f6da3562730e2da49630fc2760ec539ef",
+  "name": "Orkland politistasjon",
+  "street": "Orkdalsveien 35",
+  "zip": "7300",
+  "city": "Orkanger",
+  "lat": 63.30791,
+  "lon": 9.85134,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fb7d91b9580c2bc0f3dd6320bc0c90b28d76d8a3cfb77ab312599f678028e4f7",
+  "name": "Otta politistasjon",
+  "street": "Ole Dahlsgate 3B",
+  "zip": "2670",
+  "city": "Otta",
+  "lat": 61.72685,
+  "lon": 9.55085,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a3a8a5a4e819768c11bc634656e559f2b94a2f221543c2964e30cd94b0d389fa",
+  "name": "Politiets Forvaltningssenter i Haugesund",
+  "street": "Sørhauggata 128",
+  "zip": "5527",
+  "city": "Haugesund",
+  "lat": 59.41262,
+  "lon": 5.27059,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "d4fd948139a6bb3c88d56ba8bb259ed35ba5f4dec5882e82528624312de37b78",
+  "name": "Politiets publikumssenter - Grålum",
+  "street": "Rådmann Siras vei 4",
+  "zip": "1712",
+  "city": "Grålum",
+  "lat": 59.29601,
+  "lon": 11.06137,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "9362230d4803607d0f874f958a554d0d46642980c7917856a34fa46786acd48e",
+  "name": "Politiets publikumssenter - Lillestrøm",
+  "street": "Jonas Lies gate 20",
+  "zip": "2000",
+  "city": "Lillestrøm",
+  "lat": 59.9551,
+  "lon": 11.03795,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "b56db719fe3d46ba2d691e97b8dc58ff99bf66e93980ac01c0b88e7c386d7fac",
+  "name": "Politiets publikumssenter - Ski",
+  "street": "Tinghusveien 28",
+  "zip": "1400",
+  "city": "Ski",
+  "lat": 59.72668,
+  "lon": 10.84548,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "80086afd2b953ff08ab6368bb95efd300024953432e6938861bab6874c8db2d4",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7400da7701c6c020aa357d31c4dbd8a80aa11f696fbe1097b1897ff4e5835d87",
+  "name": "Politiets publikumsvakt OSL",
+  "street": "Terminalbygget ankomsthallen",
+  "zip": "2061",
+  "city": "Gardermoen",
+  "lat": 60.19395,
+  "lon": 11.09948,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "19d6ac44b86750231306a49518146d7a0bba28bcac9bfb040a9672bd9c7dd51a",
+  "name": "Porsanger politistasjon",
+  "street": "Meieriveien 2",
+  "zip": "9700",
+  "city": "Lakselv",
+  "lat": 70.05116,
+  "lon": 24.97293,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "140c6b350cf1d4175f6aa11f1e3a0d4e9c6af47520e1a1cbd0cc5ab9fd1a4cd6",
+  "name": "Randaberg politistasjon",
+  "street": "Randabergveien 300B",
+  "zip": "4070",
+  "city": "Randaberg",
+  "lat": 59.00066,
+  "lon": 5.62661,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "9a3f958995746a8c384db4301460fc0e26b5283a51964e6acf2bb44659429bb0",
+  "name": "Røros politistasjon",
+  "street": "Hånesveien 1",
+  "zip": "7374",
+  "city": "Røros",
+  "lat": 62.5657,
+  "lon": 11.3703,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "f9753b40458d422073a333656ab704b027933bf91dc32914b85486b85a15ffda",
+  "name": "Sandnes politistasjon",
+  "street": "Gjesdalsbakken 7",
+  "zip": "4306",
+  "city": "Sandnes",
+  "lat": 58.84755,
+  "lon": 5.73749,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "975b928de37b15261fcc68f4d6969280fb3016de79ffec51aadd19baeb8d2b7a",
+  "name": "Sauda politistasjon",
+  "street": "Kyrkjegata 2",
+  "zip": "4200",
+  "city": "Sauda",
+  "lat": 59.64803,
+  "lon": 6.34821,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "0279a2ea54d6c9644fe03a6075a99cd52074b7d027188964b7fcebe309119228",
+  "name": "Sigdal politistasjon",
+  "street": "Borgestubakken 2",
+  "zip": "3350",
+  "city": "Prestfoss",
+  "lat": 60.04532,
+  "lon": 9.636,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "9f3f7cf45ab25856306d9d5a43a4bfc7bc03e7b2aee86a53068e03eedfc87997",
+  "name": "Sogndal politistasjon",
+  "street": "Fjøravegen 20",
+  "zip": "6856",
+  "city": "Sogndal",
+  "lat": 61.23184,
+  "lon": 7.10554,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "85def6f1c2ba1e1076cba148d827e9b3a67856e1ec1acc955d5cf982d551eb09",
+  "name": "Sortland politistasjon",
+  "street": "Strandgata 37",
+  "zip": "8400",
+  "city": "Sortland",
+  "lat": 68.69358,
+  "lon": 15.41526,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "f72f0ae488a3f26e55634ff81d128149b96c4be593eb343955087d1448c15a0b",
+  "name": "Stad politistasjon",
+  "street": "Rådhusvegen 8",
+  "zip": "6770",
+  "city": "Nordfjordeid",
+  "lat": 61.90575,
+  "lon": 5.99234,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "520e946da48c4bacfd07370019d42c916c2c740c5aa72f1c2643a6e8aad8a1e1",
+  "name": "Stavanger lufthavn politistasjon",
+  "street": "Flyplassvegen 230",
+  "zip": "4055",
+  "city": "Sola",
+  "lat": 58.88221,
+  "lon": 5.62986,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "3c6ac4c3882e046c05c6ee30cc4839e405761906cce3be09f693aafde90b3332",
+  "name": "Steinkjer politistasjon",
+  "street": "Statens hus, Strandveien 38",
+  "zip": "7713",
+  "city": "Steinkjer",
+  "lat": 64.00532,
+  "lon": 11.51196,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "f687c6a208976fe6ac5f3b1966299e348fe537e59ba4e39dd209f8b6bd0e5398",
+  "name": "Stjørdal politistasjon",
+  "street": "Værnesgata 21",
+  "zip": "7500",
+  "city": "Stjørdal",
+  "lat": 63.46935,
+  "lon": 10.91639,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7eb5437e98af3d28a65b1c6df36ca2f548885d66b2bfb911fa4c38e3d8f6c3d4",
+  "name": "Stord politistasjon",
+  "street": "Vabakkjen 7",
+  "zip": "5411",
+  "city": "Stord",
+  "lat": 59.77392,
+  "lon": 5.48384,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "df0b6026a36bab2bea29216f1564eeebd539b8c6c78761a05249ee643a22847c",
+  "name": "Sunndal politistasjon",
+  "street": "Industriveien 92",
+  "zip": "6600",
+  "city": "Sunndalsøra",
+  "lat": 62.67326,
+  "lon": 8.54818,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "03779b424121f91216ece5b5e2256c89906408012f8ca48f3d87de194b41c00c",
+  "name": "Surnadal politistasjon",
+  "street": "Skeivegen 3",
+  "zip": "6656",
+  "city": "Surnadal",
+  "lat": 62.97389,
+  "lon": 8.72634,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "48b70ed5ac92129401b79739660cab3f5879782b90175455b4a9da490b025aec",
+  "name": "Svolvær politistasjon",
+  "street": "Vorsetøyveien 17",
+  "zip": "8300",
+  "city": "Svolvær",
+  "lat": 68.22881,
+  "lon": 14.55802,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "e1ac01e9138e4d985387c08b04462c6065f44e24d8434fb6adc5cd7d98ba5df2",
+  "name": "Sykkylven politistasjon",
+  "street": "Skulevegen 11",
+  "zip": "6230",
+  "city": "Sykkylven",
+  "lat": 62.39186,
+  "lon": 6.58117,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "14b88262bddc845e69546fe29ed75e0d8d5000e076becafcb6dd6fa65afb9917",
+  "name": "Sysselmesteren på Svalbard",
+  "street": "Vei 309 nr 4",
+  "zip": "9170",
+  "city": "Longyearbyen",
+  "lat": 78.22225,
+  "lon": 15.62758,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fddce9c2769251cb9aa2704ad8f4ce8e5296516e4889e686d9fbc441f444f2ef",
+  "name": "Tana politistasjon",
+  "street": "Tanafjordveien 54",
+  "zip": "9845",
+  "city": "Tana",
+  "lat": 70.20166,
+  "lon": 28.18088,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "fa34afc5c058656523a31c697ba28ea05dcfe702aec415fbb80d661a6d7e80e8",
+  "name": "Torp politistasjon",
+  "street": "Torpveien 125",
+  "zip": "3241",
+  "city": "Sandefjord",
+  "lat": 59.17813,
+  "lon": 10.24909,
+  "services": [
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "cdf7f5063cfb8065a3e2e4adf33e32c656ef0480de5e7a0f068d534328acc612",
+  "name": "Tromsø politistasjon",
+  "street": "Stakkevollvegen 9",
+  "zip": "9010",
+  "city": "Tromsø",
+  "lat": 69.66011,
+  "lon": 18.96763,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "a7d1ce445762e13d9634fe8263262fd2faf362877741916a67ee82e26abd121b",
+  "name": "Trondheim sentrum politistasjon",
+  "street": "Gryta 4",
+  "zip": "7005",
+  "city": "Trondheim",
+  "lat": 63.43048,
+  "lon": 10.39506,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5272fd5b368f4de0553e32502aaafc54a93c24d8ebe78828678ad45d40914410",
+  "name": "Tynset politistasjon",
+  "street": "Ringveien 36A",
+  "zip": "2500",
+  "city": "Tynset",
+  "lat": 62.27343,
+  "lon": 10.77783,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "8729694f74816364f5db30bfce214cd4bc7d1f0b505c06c32850547097a78d03",
+  "name": "Ulstein og Hareid politistasjon",
+  "street": "Saunesvegen 10",
+  "zip": "6065",
+  "city": "Ulsteinvik",
+  "lat": 62.33976,
+  "lon": 5.85499,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7f245e3dc515623718e39be3dfde6eaeb1055bbede600c7f31222c5211606c61",
+  "name": "Vadsø politistasjon",
+  "street": "Damsveien 1",
+  "zip": "9800",
+  "city": "Vadsø",
+  "lat": 70.07592,
+  "lon": 29.74741,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "60817a7cf887482737f00c0f00953bf66ce65390c1656d5d3d31cb49f73ef934",
+  "name": "Vestnes politistasjon",
+  "street": "Sjøgata 34",
+  "zip": "6390",
+  "city": "Vestnes",
+  "lat": 62.62238,
+  "lon": 7.09404,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "d1a22bcbe3758d36e57ac7a7c6eea3b9fb259a8b381b76413197884c637887d7",
+  "name": "Vinje politistasjon",
+  "street": "Vinjeveien 184",
+  "zip": "3890",
+  "city": "Vinje",
+  "lat": 59.5685,
+  "lon": 7.98886,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "5b3874d74f38e4cb5f2d64d9de5fddb6ce092980a0c49d5ef89eae0eeda2a268",
+  "name": "Volda og Ørsta politistasjon",
+  "street": "Torvmyrane 11B",
+  "zip": "6160",
+  "city": "Hovedbygda",
+  "lat": 62.17912,
+  "lon": 6.08157,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "9d9f6c7a34c8fe900c987ffa4caf1b7302b4e86561373878c7e782c53f4dd60f",
+  "name": "Voss politistasjon",
+  "street": "Brynalii 102",
+  "zip": "5705",
+  "city": "Voss",
+  "lat": 60.63481,
+  "lon": 6.46029,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "8014a727faa2b1779bf9f458ae2614f4560b776a18a5549aace8fa46ee589803",
+  "name": "Ålesund politistasjon",
+  "street": "Nedre Standgate 50",
+  "zip": "6005",
+  "city": "Ålesund",
+  "lat": 62.47079,
+  "lon": 6.13927,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "f90a0285bf78575f5d20203d32def444b8fb8a4c99cc22848b1e75719bee0a1b",
+  "name": "Ørland politistasjon",
+  "street": "Rådhusgata 6",
+  "zip": "7130",
+  "city": "Brekstad",
+  "lat": 63.68566,
+  "lon": 9.66603,
+  "services": [
+   "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ },
+ {
+  "id": "7e2786ecaf5ddd38194319b37b9c61528c7c8245c3ecba4c62828f14eff94e17",
+  "name": "Øygarden politistasjon",
+  "street": "Skjenet 4",
+  "zip": "5354",
+  "city": "Straume",
+  "lat": 60.36411,
+  "lon": 5.12019,
+  "services": [
+   "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4"
+  ]
+ }
+]

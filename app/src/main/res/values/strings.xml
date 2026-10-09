@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Passvarsling</string>
+
+    <string name="tab_overview">Oversikt</string>
+    <string name="tab_map">Kart</string>
+    <string name="tab_watches">Varsler</string>
+    <string name="tab_settings">Innstillinger</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Avbryt</string>
+    <string name="back">Tilbake</string>
+    <string name="refresh">Oppdater</string>
+    <string name="retry">Prøv igjen</string>
+    <string name="link_error">Fant ingen app som kan åpne dette</string>
+    <string name="location_unavailable">Fant ikke posisjonen din. Sjekk at posisjon er slått på og at appen har tilgang.</string>
+
+    <!-- Waiting time -->
+    <plurals name="wait_days">
+        <item quantity="one">dag</item>
+        <item quantity="other">dager</item>
+    </plurals>
+    <plurals name="wait_weeks">
+        <item quantity="one">uke</item>
+        <item quantity="other">uker</item>
+    </plurals>
+    <plurals name="wait_months">
+        <item quantity="one">mnd.</item>
+        <item quantity="other">mnd.</item>
+    </plurals>
+    <string name="wait_today">i dag</string>
+    <string name="wait_tomorrow">i morgen</string>
+    <string name="wait_today_short">I dag</string>
+    <string name="wait_unknown_short">ukjent</string>
+    <string name="wait_none_short">ingen</string>
+    <string name="wait_description">Ventetid %1$s</string>
+    <string name="wait_badge_days">%1$dd</string>
+    <string name="wait_badge_weeks">%1$du</string>
+    <string name="wait_badge_months">%1$dm</string>
+    <string name="today">i dag</string>
+    <string name="tomorrow">i morgen</string>
+    <plurals name="in_days">
+        <item quantity="one">om %d dag</item>
+        <item quantity="other">om %d dager</item>
+    </plurals>
+    <string name="distance_km">%1$d km</string>
+    <string name="distance_km_decimal">%1$.1f km</string>
+
+    <!-- Wait time legend and groups -->
+    <string name="wait_short">≤ 2 uker</string>
+    <string name="wait_medium">≤ 6 uker</string>
+    <string name="wait_long">≤ 3 mnd.</string>
+    <string name="wait_very_long">&gt; 3 mnd.</string>
+    <string name="wait_none">Ingen ledige</string>
+    <string name="group_short">Under 2 uker</string>
+    <string name="group_medium">2–6 uker</string>
+    <string name="group_long">6 uker – 3 måneder</string>
+    <string name="group_very_long">Over 3 måneder</string>
+    <string name="group_none">Ingen ledige timer</string>
+    <string name="group_unknown">Ikke sjekket ennå</string>
+
+    <!-- Overview -->
+    <string name="overview_title">Ledige passtimer</string>
+    <string name="overview_title_other">Ledige timer</string>
+    <plurals name="overview_subtitle">
+        <item quantity="one">%1$d kontor · oppdatert %2$s</item>
+        <item quantity="other">%1$d kontorer · oppdatert %2$s</item>
+    </plurals>
+    <plurals name="offices_count">
+        <item quantity="one">%d kontor</item>
+        <item quantity="other">%d kontorer</item>
+    </plurals>
+    <plurals name="offices_word">
+        <item quantity="one">kontor</item>
+        <item quantity="other">kontorer</item>
+    </plurals>
+    <plurals name="search_hint_count">
+        <item quantity="one">Søk blant %d kontor</item>
+        <item quantity="other">Søk blant %d kontorer</item>
+    </plurals>
+    <string name="search_hint_short">Søk etter kontor eller sted</string>
+    <string name="clear_search">Tøm søket</string>
+    <string name="refreshing_progress">Henter ledige timer … %1$d av %2$d</string>
+    <string name="no_offices">Fant ingen kontorer</string>
+    <string name="no_followed">Du følger ingen kontorer ennå. Trykk på bjella ved et kontor.</string>
+    <string name="filter_all">Alle</string>
+    <string name="filter_followed">Følger (%1$d)</string>
+    <string name="filter_near">Nær meg</string>
+    <string name="stats_shortest">Kortest ventetid</string>
+    <string name="stats_under_two_weeks">Under 2 uker</string>
+    <string name="stats_typical">Typisk ventetid</string>
+    <string name="stats_typical_sub">i hele landet</string>
+    <string name="stats_followed">Dine kontorer</string>
+    <string name="stats_shortest_near">Kortest nær deg</string>
+    <string name="section_followed">Du følger</string>
+    <string name="section_nearest">Nærmest deg</string>
+    <string name="earliest_unknown">Ikke sjekket ennå</string>
+    <string name="earliest_none">Ingen ledige timer</string>
+    <string name="watch_add">Følg kontoret</string>
+    <string name="watch_remove">Slutt å følge</string>
+    <string name="refresh_stopped">Politiets system svarer ikke akkurat nå. Prøv igjen senere.</string>
+    <plurals name="refresh_failed">
+        <item quantity="one">Klarte ikke å hente %d kontor</item>
+        <item quantity="other">Klarte ikke å hente %d kontorer</item>
+    </plurals>
+
+    <!-- Map -->
+    <string name="map_open_office">Se ledige timer</string>
+
+    <!-- Alerts -->
+    <string name="alerts_active">Varsler er på</string>
+    <string name="alerts_paused">Varsler er satt på pause</string>
+    <string name="alerts_no_offices">Følg ett eller flere kontorer for å få varsler.</string>
+    <string name="watches_status_on">Sjekker automatisk %1$s</string>
+    <string name="watches_status_off">Automatisk sjekk er slått av i innstillingene</string>
+    <string name="last_checked">Sist sjekket %1$s</string>
+    <string name="next_check">neste ca. %1$s</string>
+    <string name="never_checked">Ikke sjekket ennå</string>
+    <string name="watch_not_offered">Tilbyr ikke tjenesten du har valgt</string>
+    <string name="check_error">Feil ved siste sjekk %1$s</string>
+    <string name="check_now">Sjekk nå</string>
+    <string name="checking">Sjekker …</string>
+    <string name="check_failed">Klarte ikke å sjekke nå. Prøv igjen litt senere.</string>
+    <string name="offline">Ingen internettforbindelse. Prøv igjen når telefonen er på nett.</string>
+    <string name="check_nothing_new">Ingen nye timer akkurat nå</string>
+    <plurals name="check_found">
+        <item quantity="one">Nye timer ved %d kontor!</item>
+        <item quantity="other">Nye timer ved %d kontorer!</item>
+    </plurals>
+    <string name="rule_title">Varsle meg om</string>
+    <string name="rule_earlier">Tidligere</string>
+    <string name="rule_within">Innen</string>
+    <string name="rule_before">Før dato</string>
+    <string name="rule_earlier_desc">Varsel når det dukker opp en time som er tidligere enn den første ledige akkurat nå, ved hvert kontor du følger.</string>
+    <string name="rule_within_desc">Varsel om alle nye ledige timer de neste %1$s.</string>
+    <string name="rule_before_desc">Varsel om alle nye ledige timer fram til %1$s.</string>
+    <string name="rule_before_pick">Velg den siste datoen du kan ta time.</string>
+    <string name="rule_before_choose">Velg dato</string>
+    <string name="rule_before_expired">Datoen har passert. Velg en ny dato for å få varsler igjen.</string>
+    <plurals name="weeks_count">
+        <item quantity="one">%d uke</item>
+        <item quantity="other">%d uker</item>
+    </plurals>
+    <string name="followed_title">Kontorer du følger (%1$d)</string>
+    <string name="add_offices_short">Legg til</string>
+    <string name="add_more_offices">Legg til flere kontorer</string>
+    <string name="choose_offices">Velg kontorer</string>
+    <string name="watches_empty_title">Du følger ingen kontorer ennå</string>
+    <string name="watches_empty_body">Velg alle kontorene du kan reise til. Appen sjekker politiets timebestilling jevnlig og varsler deg når det dukker opp en ledig time.</string>
+    <string name="bg_title">Sørg for at varslene kommer fram</string>
+    <string name="bg_intro">Appen sjekker politiets timebestilling i bakgrunnen. Strømsparing og dyp søvn kan stoppe eller utsette sjekken, og da får du vite om ledige timer for sent.</string>
+    <string name="bg_notifications_off">Slått av – du får ingen varsler</string>
+    <string name="bg_turn_on">Slå på</string>
+    <string name="bg_running">Batterioptimalisering</string>
+    <string name="bg_running_limited">På – Android kan legge appen i dyp søvn og stoppe sjekken</string>
+    <string name="bg_running_ok">Av – sjekken får kjøre i bakgrunnen</string>
+    <string name="bg_allow">Slå av</string>
+    <string name="bg_power_save">Strømsparing</string>
+    <string name="bg_power_save_on">På – sjekkene utsettes til strømsparing slås av</string>
+    <string name="bg_power_save_off">Av</string>
+    <string name="bg_open">Åpne</string>
+    <string name="bg_samsung_title">Samsung: apper i hvilemodus</string>
+    <string name="bg_samsung_body">Samsung kan legge apper i hvilemodus eller dyp hvilemodus, og da stopper sjekken helt. Åpne Batteri → Begrensninger for bakgrunnsbruk og legg %1$s blant appene som aldri skal i hvilemodus. Navnene varierer litt mellom versjoner.</string>
+    <string name="bg_vendor_title">%1$s: egne strømsparere</string>
+    <string name="bg_vendor_body">%1$s-telefoner har ofte egne innstillinger som stopper apper i bakgrunnen, for eksempel autostart eller apper i dvale. Åpne appinfo og tillat bakgrunnsaktivitet, eller følg veiledningen for telefonen din.</string>
+    <string name="bg_open_battery">Åpne batteri</string>
+    <string name="bg_open_app_info">Åpne appinfo</string>
+    <string name="bg_guide">Veiledning (engelsk)</string>
+    <string name="bg_hint_app_info">Velg «Batteribruk for apper» (eller «Batteri»), og så «Ubegrenset».</string>
+    <string name="bg_hint_list">Velg «Alle apper», finn %1$s og velg «Ikke optimaliser».</string>
+    <string name="bg_prompt_title">La appen sjekke i bakgrunnen?</string>
+    <string name="bg_prompt_body">For at du skal få varsel med en gang en tidligere time dukker opp, må Android la appen kjøre i bakgrunnen. På neste skjerm kan du la appen slippe batterioptimalisering. Det bruker svært lite strøm – appen sjekker bare noen få ganger i timen.</string>
+    <string name="bg_prompt_continue">Fortsett</string>
+    <string name="bg_prompt_later">Ikke nå</string>
+    <string name="interval_15">hvert 15. minutt</string>
+    <string name="interval_30">hver halvtime</string>
+    <string name="interval_60">hver time</string>
+    <string name="interval_120">annenhver time</string>
+    <string name="deadline_dialog_title">Varsle om timer fram til</string>
+
+    <!-- Office picker -->
+    <string name="picker_title">Velg kontorer</string>
+    <string name="picker_hint">Du får varsel fra alle kontorene du velger.</string>
+    <string name="picker_near_me">Nærmest meg</string>
+    <string name="picker_shortest">Kortest ventetid</string>
+    <string name="picker_pick_nearest">Velg de 5 nærmeste</string>
+    <string name="picker_save_none">Ikke følg noen kontorer</string>
+    <plurals name="picker_save">
+        <item quantity="one">Følg %d kontor</item>
+        <item quantity="other">Følg %d kontorer</item>
+    </plurals>
+
+    <!-- Office -->
+    <string name="detail_wait_label">Ventetid</string>
+    <string name="detail_first_free_line">Første ledige: %1$s</string>
+    <string name="book_button">Bestill time hos politiet</string>
+    <string name="book_hint">Bestillingen skjer på politiets nettside. Kontoret og tjenesten er valgt for deg – velg antall personer og tidspunkt der.</string>
+    <string name="detail_free_dates">Ledige timer</string>
+    <plurals name="dates_count">
+        <item quantity="one">%d dag med ledige timer</item>
+        <item quantity="other">%d dager med ledige timer</item>
+    </plurals>
+    <string name="detail_load_error">Klarte ikke å hente ledige timer.</string>
+    <string name="detail_no_dates">Ingen ledige timer akkurat nå. Følg kontoret, så sier appen fra når noe blir ledig.</string>
+    <string name="detail_times_for">%1$s</string>
+    <string name="detail_times_error">Klarte ikke å hente klokkeslett.</string>
+    <string name="detail_no_times">Ingen ledige tider denne dagen lenger.</string>
+    <string name="fetched_at">Hentet %1$s</string>
+    <string name="previous_month">Forrige måned</string>
+    <string name="next_month">Neste måned</string>
+    <plurals name="persons">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d personer</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Utseende</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Lys</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="settings_dynamic_color">Farger fra bakgrunnsbildet</string>
+    <string name="settings_dynamic_color_hint">Material You – appen får fargene fra telefonen din</string>
+    <string name="settings_service">Hva trenger du time til?</string>
+    <string name="settings_persons">Antall personer</string>
+    <string name="settings_persons_hint">Velg like mange som du skal bestille for. Flere personer trenger en lengre time, så færre tider passer.</string>
+    <string name="settings_background_title">Automatisk sjekk</string>
+    <string name="settings_background">Sjekk i bakgrunnen</string>
+    <string name="settings_interval_hint">Android kan utsette sjekker når telefonen sover. Appen sjekker aldri oftere enn hvert 15. minutt, av hensyn til politiets system.</string>
+    <string name="settings_background_running">Strømsparing og dyp søvn</string>
+    <string name="settings_notifications">Varsler</string>
+    <string name="settings_notifications_on">Tillatt</string>
+    <string name="settings_privacy">Personvern</string>
+    <string name="settings_location">Posisjon</string>
+    <string name="settings_location_saved">Omtrentlig posisjon lagret på telefonen, brukes bare til avstand</string>
+    <string name="settings_location_none">Ikke brukt. Trykk «Nær meg» for å sortere etter avstand.</string>
+    <string name="settings_location_forget">Glem</string>
+    <string name="settings_about">Om appen</string>
+    <string name="about_text">%1$s er gratis og har åpen kildekode (GPL-3.0). Appen er uavhengig og ikke tilknyttet Politiet. Ledige timer hentes fra politiets offentlige timebestilling, rett fra telefonen din. Appen har ingen server og ingen reklame, og samler ikke inn noe om deg.</string>
+    <string name="about_version">Versjon %1$s</string>
+    <string name="about_map">Kart: © Kartverket</string>
+    <string name="about_source">Kildekode</string>
+    <string name="open_booking_site">Åpne politiets timebestilling</string>
+
+    <!-- Notifications -->
+    <string name="channel_slots_name">Ledige timer</string>
+    <string name="channel_slots_description">Når det blir ledig en tidlig time ved et kontor du følger</string>
+    <string name="notif_title">Ledig %1$s · %2$s</string>
+    <string name="notif_date_times">%1$s · kl. %2$s</string>
+    <string name="notif_previous">Før: første ledige var %1$s</string>
+    <plurals name="notif_new_dates">
+        <item quantity="one">%d ny dag med ledige timer</item>
+        <item quantity="other">%d nye dager med ledige timer</item>
+    </plurals>
+    <plurals name="notif_summary_title">
+        <item quantity="one">Ny ledig time ved %d kontor</item>
+        <item quantity="other">Nye ledige timer ved %d kontorer</item>
+    </plurals>
+    <string name="notif_summary_line">%1$s: %2$s</string>
+    <string name="notif_action_book">Bestill</string>
+</resources>

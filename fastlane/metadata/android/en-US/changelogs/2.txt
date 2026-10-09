@@ -1,0 +1,1 @@
+New design with light and dark theme. Offices near you first, waiting time for every office, a choice of which appointments to be alerted about, and help keeping battery saving from stopping the alerts.

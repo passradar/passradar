@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Merged into release builds made with -Pplay (see app/build.gradle.kts). Google Play only
+    allows this permission for a few kinds of apps. Without it, the app opens Android's list
+    of battery-optimised apps instead of asking directly.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+        tools:node="remove" />
+</manifest>

@@ -1,0 +1,20 @@
+Det er ofte fullbooket hos politiets pass- og ID-kontorer i uker og måneder, men avbestillinger skjer hele tiden. Passvarsling følger kontorene du kan reise til, og sier fra når det dukker opp en tidligere ledig time.
+
+<b>Funksjoner</b>
+<ul>
+<li>Varsel når det blir ledig en tidligere time ved kontorene du følger – følg så mange kontorer du vil</li>
+<li>Velg selv: alle tidligere timer, timer innen et antall uker, eller timer før en bestemt dato</li>
+<li>Ventetid for hvert kontor, med kontorene du følger øverst og resten sortert etter avstand fra deg</li>
+<li>Kart med fargekoder for ventetid (kartdata fra Kartverket)</li>
+<li>Kalender med ledige datoer og klokkeslett for hvert kontor</li>
+<li>Direktelenke til politiets timebestilling med kontor og tjeneste ferdig valgt</li>
+<li>Alle tjenestene i timebestillingen, for 1–9 personer</li>
+<li>Lyst og mørkt tema, moderne «liquid glass»-design</li>
+<li>Hjelp til å slå av batterioptimalisering og strømsparing, så varslene kommer fram i tide</li>
+<li>Virker på Android 5.0 og nyere</li>
+</ul>
+
+<b>Gratis og privat</b>
+Appen har ingen server, ingen konto, ingen reklame og ingen sporing. Telefonen sjekker selv politiets offentlige timebestilling, aldri oftere enn hvert 15. minutt og bare for kontorene du følger. Posisjonen din (omtrentlig) brukes bare til å regne ut avstander, og forlater aldri telefonen. Du bestiller timen selv på politiets nettside.
+
+Passvarsling har åpen kildekode (GPL-3.0) og er uavhengig – ikke tilknyttet eller godkjent av Politiet. Kilde for ledige timer: politiets timebestilling, https://pass-og-id.politiet.no/timebestilling/
