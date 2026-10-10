@@ -1,4 +1,4 @@
-Appointments at the Norwegian police's passport and ID offices are often booked up for weeks or months, but cancellations happen all the time. Passvarsling follows the offices you can travel to and tells you when an earlier appointment becomes free.
+Appointments at the Norwegian police's passport and ID offices are often booked up for weeks or months, but cancellations happen all the time. Passradar follows the offices you can travel to and tells you when an earlier appointment becomes free.
 
 <b>Features</b>
 <ul>
@@ -17,4 +17,4 @@ Appointments at the Norwegian police's passport and ID offices are often booked 
 <b>Free and private</b>
 No server, no account, no ads and no tracking. Your phone checks the police's public appointment booking itself, never more often than every 15 minutes and only for the offices you follow. Your approximate location is only used to work out distances and never leaves the phone. You book the appointment yourself on the police's website.
 
-Passvarsling is open source (GPL-3.0) and independent – not affiliated with or endorsed by the Norwegian Police. Source of the appointment data: the police's booking site, https://pass-og-id.politiet.no/timebestilling/
+Passradar is open source (GPL-3.0) and independent – not affiliated with or endorsed by the Norwegian Police. Source of the appointment data: the police's booking site, https://pass-og-id.politiet.no/timebestilling/

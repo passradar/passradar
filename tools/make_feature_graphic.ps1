@@ -4,7 +4,7 @@
 # Usage (Windows PowerShell):  powershell -File tools/make_feature_graphic.ps1
 # Change $name and the taglines below if the app gets another name.
 param(
-    [string]$name = "Passvarsling"
+    [string]$name = "Passradar"
 )
 
 Add-Type -AssemblyName System.Drawing

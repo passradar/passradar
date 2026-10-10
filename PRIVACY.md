@@ -1,8 +1,8 @@
-# Personvernerklæring for Passvarsling
+# Personvernerklæring for Passradar
 
-*Sist endret: 10. oktober 2026 · [English below](#privacy-policy-for-passvarsling)*
+*Sist endret: 10. oktober 2026 · [English below](#privacy-policy-for-passradar)*
 
-Passvarsling er en gratis app med åpen kildekode som varsler deg om ledige timer for pass og ID-kort hos politiet. Appen er laget for å samle inn så lite som mulig: **utvikleren mottar ingen opplysninger om deg.**
+Passradar er en gratis app med åpen kildekode som varsler deg om ledige timer for pass og ID-kort hos politiet. Appen er laget for å samle inn så lite som mulig: **utvikleren mottar ingen opplysninger om deg.**
 
 ## Hva appen lagrer
 
@@ -51,11 +51,11 @@ Endringer i denne erklæringen publiseres i denne fila sammen med kildekoden. Sp
 
 ---
 
-# Privacy policy for Passvarsling
+# Privacy policy for Passradar
 
 *Last updated: 10 October 2026*
 
-Passvarsling is a free, open-source app that notifies you about free passport and ID card appointments at the Norwegian police. It is built to collect as little as possible: **the developer receives no information about you.**
+Passradar is a free, open-source app that notifies you about free passport and ID card appointments at the Norwegian police. It is built to collect as little as possible: **the developer receives no information about you.**
 
 ## What the app stores
 

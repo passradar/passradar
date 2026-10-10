@@ -7,8 +7,8 @@ Steg for steg fra kildekode til Google Play, pluss gratis alternativer. Kravene 
 Disse valgene er vanskelige eller umulige å endre senere:
 
 - [ ] **Navn.** Bytt det overalt om du vil ha et annet (se [sjekklisten nederst](#bytte-navn)).
-- [ ] **Pakkenavn (`applicationId`)** i `app/build.gradle.kts`. Det kan **aldri** endres etter første publisering på Google Play. Bruk et navnerom du eier, for eksempel `io.github.<github-brukernavn>.passvarsling`. `namespace` (pakkene i koden) kan bli stående.
-- [ ] **Kildekodelenke:** sett `passvarsling.sourceUrl` i `gradle.properties` til adressen til repoet, så får «Om appen» en lenke dit.
+- [ ] **Pakkenavn (`applicationId`)** i `app/build.gradle.kts`, nå `io.github.passradar`. Det kan **aldri** endres etter første publisering på Google Play. Navnet passer best om GitHub-kontoen eller -organisasjonen heter `passradar`; ellers kan du bruke `io.github.<github-brukernavn>.passradar`. `namespace` (pakkene i koden) kan bli stående uansett.
+- [ ] **Kildekodelenke:** sett `passradar.sourceUrl` i `gradle.properties` til adressen til repoet, så får «Om appen» en lenke dit.
 - [ ] **Kontakt-e-post** i [PRIVACY.md](PRIVACY.md) (to steder).
 
 ## 2. Legg koden på GitHub
@@ -35,7 +35,7 @@ Disse valgene er vanskelige eller umulige å endre senere:
 Google Play bruker *Play App Signing*: Google holder selve signeringsnøkkelen, og du signerer opplastingene med en **opplastingsnøkkel**.
 
 ```bash
-keytool -genkeypair -v -keystore release.jks -alias passvarsling -keyalg RSA -keysize 4096 -validity 10000
+keytool -genkeypair -v -keystore release.jks -alias passradar -keyalg RSA -keysize 4096 -validity 10000
 ```
 
 Lag `keystore.properties` i prosjektmappa (den er i `.gitignore`, så den havner ikke på GitHub):
@@ -43,7 +43,7 @@ Lag `keystore.properties` i prosjektmappa (den er i `.gitignore`, så den havner
 ```properties
 storeFile=release.jks
 storePassword=…
-keyAlias=passvarsling
+keyAlias=passradar
 keyPassword=…
 ```
 
@@ -119,11 +119,11 @@ Google krever at appen sikter mot en nyere Android-versjon omtrent hvert år: fr
 
 ## Bytte navn
 
-Om appen skal hete noe annet enn «Passvarsling»:
+Om appen skal hete noe annet enn «Passradar»:
 
 1. `app_name` i `app/src/main/res/values/strings.xml` (resten av tekstene i appen henter navnet derfra).
 2. `fastlane/metadata/android/*/title.txt` og `full_description.txt` (begge språk).
 3. Ny funksjonsgrafikk: `powershell -File tools/make_feature_graphic.ps1 -name "Nytt navn"`.
 4. `README.md`, `PRIVACY.md` og navnet på APK-fila i `.github/workflows/release.yml`.
-5. `User-Agent` i `app/src/main/java/io/github/passvarsling/net/Http.kt`, så politiet ser riktig navn.
-6. Valgfritt: `rootProject.name` i `settings.gradle.kts`. Kodepakkene (`io.github.passvarsling`) kan bli som de er.
+5. `User-Agent` i `app/src/main/java/io/github/passradar/net/Http.kt`, så politiet ser riktig navn.
+6. Valgfritt: `rootProject.name` i `settings.gradle.kts`. Kodepakkene (`io.github.passradar`) kan bli som de er.

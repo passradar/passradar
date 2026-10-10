@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Passvarsling"
+rootProject.name = "Passradar"
 include(":app")

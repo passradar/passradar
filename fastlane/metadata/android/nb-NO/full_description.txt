@@ -1,4 +1,4 @@
-Det er ofte fullbooket hos politiets pass- og ID-kontorer i uker og måneder, men avbestillinger skjer hele tiden. Passvarsling følger kontorene du kan reise til, og sier fra når det dukker opp en tidligere ledig time.
+Det er ofte fullbooket hos politiets pass- og ID-kontorer i uker og måneder, men avbestillinger skjer hele tiden. Passradar følger kontorene du kan reise til, og sier fra når det dukker opp en tidligere ledig time.
 
 <b>Funksjoner</b>
 <ul>
@@ -17,4 +17,4 @@ Det er ofte fullbooket hos politiets pass- og ID-kontorer i uker og måneder, me
 <b>Gratis og privat</b>
 Appen har ingen server, ingen konto, ingen reklame og ingen sporing. Telefonen sjekker selv politiets offentlige timebestilling, aldri oftere enn hvert 15. minutt og bare for kontorene du følger. Posisjonen din (omtrentlig) brukes bare til å regne ut avstander, og forlater aldri telefonen. Du bestiller timen selv på politiets nettside.
 
-Passvarsling har åpen kildekode (GPL-3.0) og er uavhengig – ikke tilknyttet eller godkjent av Politiet. Kilde for ledige timer: politiets timebestilling, https://pass-og-id.politiet.no/timebestilling/
+Passradar har åpen kildekode (GPL-3.0) og er uavhengig – ikke tilknyttet eller godkjent av Politiet. Kilde for ledige timer: politiets timebestilling, https://pass-og-id.politiet.no/timebestilling/

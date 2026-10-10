@@ -18,14 +18,14 @@ val keystoreProperties = Properties().apply {
 fun signingValue(property: String, env: String): String? =
     keystoreProperties.getProperty(property) ?: System.getenv(env)?.takeIf { it.isNotBlank() }
 
-val sourceUrl = providers.gradleProperty("passvarsling.sourceUrl").getOrElse("")
+val sourceUrl = providers.gradleProperty("passradar.sourceUrl").getOrElse("")
 
 android {
-    namespace = "io.github.passvarsling"
+    namespace = "io.github.passradar"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.passvarsling"
+        applicationId = "io.github.passradar"
         minSdk = 21
         targetSdk = 36
         versionCode = 2

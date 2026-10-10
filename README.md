@@ -1,4 +1,4 @@
-# Passvarsling
+# Passradar
 
 Gratis Android-app med åpen kildekode som sier fra når det blir ledig en **tidligere time for pass eller nasjonalt ID-kort** hos politiet.
 
@@ -35,7 +35,7 @@ Det finnes **ingen server**: telefonen din sjekker selv, så tjenesten koster in
 
 - sjekker appen i bakgrunnen bare kontorene du følger, og aldri oftere enn hvert 15. minutt
 - henter den oversikten over alle kontorer rolig, to og to, og høyst én gang i timen av seg selv
-- sier den ærlig hvem den er (`User-Agent: Passvarsling/…`)
+- sier den ærlig hvem den er (`User-Agent: Passradar/…`)
 - bestiller den aldri noe for deg: du bestiller selv på politiets side
 
 Appen er laget fra bunnen av ut fra politiets offentlige nettside, og bygger ikke på koden til andre apper.
@@ -78,7 +78,7 @@ Uten signeringsnøkkel blir release-APK-en signert med debug-nøkkelen, så den 
 Debug-bygget har en mottaker som later som den tidligste ledige datoen ved hvert kontor du følger nettopp ble ledig, og kjører en sjekk:
 
 ```bash
-adb shell am broadcast -n io.github.passvarsling.debug/io.github.passvarsling.DebugReceiver
+adb shell am broadcast -n io.github.passradar.debug/io.github.passradar.DebugReceiver
 ```
 
 Varsellogikken er også dekket av enhetstester i `app/src/test`.
@@ -87,10 +87,10 @@ Varsellogikken er også dekket av enhetstester i `app/src/test`.
 
 | Sti | Innhold |
 | --- | --- |
-| `app/src/main/java/io/github/passvarsling/data/` | Politiets API, lagring og logikk |
-| `app/src/main/java/io/github/passvarsling/domain/` | Når skal brukeren varsles? (`WatchEvaluator`), ventetid og søk |
-| `app/src/main/java/io/github/passvarsling/work/` | Bakgrunnssjekk med WorkManager |
-| `app/src/main/java/io/github/passvarsling/ui/` | Skjermene (Jetpack Compose); `ui/glass/` er glass-effekten |
+| `app/src/main/java/io/github/passradar/data/` | Politiets API, lagring og logikk |
+| `app/src/main/java/io/github/passradar/domain/` | Når skal brukeren varsles? (`WatchEvaluator`), ventetid og søk |
+| `app/src/main/java/io/github/passradar/work/` | Bakgrunnssjekk med WorkManager |
+| `app/src/main/java/io/github/passradar/ui/` | Skjermene (Jetpack Compose); `ui/glass/` er glass-effekten |
 | `app/src/main/assets/offices.json` | Kontorliste med kartposisjoner |
 | `app/src/play/AndroidManifest.xml` | Det som skiller Google Play-bygget fra de andre |
 | `fastlane/metadata/android/` | Butikktekster, ikon, funksjonsgrafikk og skjermbilder |
@@ -103,11 +103,11 @@ Varsellogikken er også dekket av enhetstester i `app/src/test`.
 - **Nye eller nedlagte kontorer:** kjør `python tools/update_offices.py`. Appen henter også kontorlisten selv én gang i uka, men trenger fila for kartposisjoner.
 - **Bibliotekversjoner:** AndroidX-bibliotekene er låst til de siste versjonene som støtter Android 5.0 (se kommentaren i `gradle/libs.versions.toml`). Nyere versjoner krever Android 6 eller 7.
 - **Gamle telefoner:** Android 7.1 og eldre stoler ikke på rotsertifikatene til politiets server og Kartverket. Appen har dem med (`res/raw`) og bruker dem bare der (`net/LegacyTls.kt`).
-- **Kildekodelenke i appen:** sett `passvarsling.sourceUrl` i `gradle.properties`.
+- **Kildekodelenke i appen:** sett `passradar.sourceUrl` i `gradle.properties`.
 
 ## Ansvarsfraskrivelse
 
-Passvarsling er uavhengig og ikke tilknyttet eller godkjent av Politiet. Data kommer fra politiets offentlige timebestilling og kan være forsinket eller feil. Det er ingen garanti for at du får time. Timen bestiller du alltid selv hos politiet.
+Passradar er uavhengig og ikke tilknyttet eller godkjent av Politiet. Data kommer fra politiets offentlige timebestilling og kan være forsinket eller feil. Det er ingen garanti for at du får time. Timen bestiller du alltid selv hos politiet.
 
 ## Lisens
 
@@ -117,7 +117,7 @@ Passvarsling er uavhengig og ikke tilknyttet eller godkjent av Politiet. Data ko
 
 ## English
 
-**Passvarsling** is a free, open-source Android app that notifies you when an **earlier appointment for a Norwegian passport or national ID card** becomes available at a police office.
+**Passradar** is a free, open-source Android app that notifies you when an **earlier appointment for a Norwegian passport or national ID card** becomes available at a police office.
 
 - Alerts when an earlier slot appears at any of the offices you follow – any earlier slot, slots within a number of weeks, or slots before a date you choose
 - Waiting time for every office, with followed offices first and the rest sorted by distance ("Near me" by default)

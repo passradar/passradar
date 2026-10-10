@@ -21,7 +21,7 @@ import urllib.request
 
 QMATIC = "https://pass-og-id.politiet.no/qmaticwebbooking/rest/schedule/"
 GEONORGE = "https://ws.geonorge.no/"
-USER_AGENT = "Passvarsling office list updater (open source)"
+USER_AGENT = "Passradar office list updater (open source)"
 OUT = pathlib.Path(__file__).resolve().parent.parent / "app" / "src" / "main" / "assets" / "offices.json"
 
 
