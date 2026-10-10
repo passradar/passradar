@@ -6,21 +6,17 @@ Steg for steg fra kildekode til Google Play, pluss gratis alternativer. Kravene 
 
 Disse valgene er vanskelige eller umulige å endre senere:
 
-- [ ] **Navn.** Bytt det overalt om du vil ha et annet (se [sjekklisten nederst](#bytte-navn)).
-- [ ] **Pakkenavn (`applicationId`)** i `app/build.gradle.kts`, nå `io.github.passradar`. Det kan **aldri** endres etter første publisering på Google Play. Navnet passer best om GitHub-kontoen eller -organisasjonen heter `passradar`; ellers kan du bruke `io.github.<github-brukernavn>.passradar`. `namespace` (pakkene i koden) kan bli stående uansett.
-- [ ] **Kildekodelenke:** sett `passradar.sourceUrl` i `gradle.properties` til adressen til repoet, så får «Om appen» en lenke dit.
-- [ ] **Kontakt-e-post** i [PRIVACY.md](PRIVACY.md) (to steder).
+- [x] **Navn:** Passradar. Vil du bytte senere, se [sjekklisten nederst](#bytte-navn).
+- [x] **Pakkenavn (`applicationId`)** i `app/build.gradle.kts`: `io.github.passradar`, som passer med GitHub-organisasjonen `passradar`. Det kan **aldri** endres etter første publisering på Google Play.
+- [x] **Kildekodelenke:** `passradar.sourceUrl` i `gradle.properties` peker på repoet, så «Om appen» lenker dit.
+- [x] **Kontakt** i [PRIVACY.md](PRIVACY.md): viser til GitHub-saker. Vil du heller oppgi en e-postadresse, legg den inn der (to steder). Google Play krever i tillegg en kontakt-e-post i Play Console.
 
-## 2. Legg koden på GitHub
+## 2. Koden på GitHub
 
-1. Lag et **offentlig** repo på GitHub (uten README/lisens, de finnes allerede).
-2. Push:
-   ```bash
-   git remote add origin https://github.com/<brukernavn>/<repo>.git
-   git push -u origin main
-   ```
-3. Personvernerklæringen har da en offentlig adresse som Google Play kan lenke til:
-   `https://github.com/<brukernavn>/<repo>/blob/main/PRIVACY.md`
+Koden ligger i [github.com/passradar/passradar](https://github.com/passradar/passradar). Nye endringer legger du ut med `git push`.
+
+Personvernerklæringen har dermed en offentlig adresse som Google Play kan lenke til:
+`https://github.com/passradar/passradar/blob/main/PRIVACY.md`
 
 ## 3. Utviklerkonto på Google Play
 

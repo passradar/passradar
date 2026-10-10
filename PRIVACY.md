@@ -47,7 +47,7 @@ Appen er ikke rettet mot barn og samler ikke inn opplysninger om noen.
 
 ## Endringer og kontakt
 
-Endringer i denne erklæringen publiseres i denne fila sammen med kildekoden. Spørsmål kan sendes til [din e-postadresse].
+Endringer i denne erklæringen publiseres i denne fila sammen med kildekoden. Spørsmål kan stilles som en sak (issue) på [github.com/passradar/passradar/issues](https://github.com/passradar/passradar/issues).
 
 ---
 
@@ -79,4 +79,4 @@ No account, no ads, no analytics or tracking, no crash reporting, and no sharing
 
 ## Changes and contact
 
-Changes to this policy are published in this file together with the source code. Questions: [your email address].
+Changes to this policy are published in this file together with the source code. Questions: open an issue at [github.com/passradar/passradar/issues](https://github.com/passradar/passradar/issues).
