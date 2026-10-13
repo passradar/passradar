@@ -80,7 +80,7 @@ Fila havner i `app/build/outputs/bundle/release/app-release.aab`.
 
 ## 6. Opprett appen i Play Console
 
-**Opprett app:** navn, standardspråk *norsk bokmål (nb-NO)*, «App», «Gratis».
+**Opprett app:** navn, standardspråk *norsk (no-NO)*, «App», «Gratis». Google Play bruker koden `no-NO` for norsk; mappene i `fastlane/` heter `nb-NO` fordi F-Droid bruker den koden.
 
 **Butikkoppføring** – alt ligger klart i `fastlane/metadata/android/`:
 
@@ -109,7 +109,7 @@ Legg også til engelsk (en-US) som oversettelse med filene i `en-US/`. Kategori:
 ## 7. Lukket test (12 testere i 14 dager)
 
 1. **Testing → Lukket testing:** opprett et spor, legg til testerne (en e-postliste eller en Google-gruppe).
-2. Last opp `app-release.aab`, skriv versjonsnotater (fra `fastlane/metadata/android/*/changelogs/`), og send til gjennomgang.
+2. Last opp `app-release.aab`, skriv versjonsnotater (fra `fastlane/metadata/android/*/changelogs/`), og send til gjennomgang. Notatene skrives med språkmerker, `<no-NO>…</no-NO>` og `<en-US>…</en-US>`. Får du beskjed om at appen trenger minst API 24 for «Automatic protection», slår du den av under *Test and release → App integrity*. Den er valgfri, og appen støtter Android 5.0.
 3. Del opt-in-lenken. Hver tester må godta invitasjonen med Google-kontoen sin og installere appen fra Play.
 4. Hold minst 12 testere påmeldt i 14 sammenhengende dager. Venner og familie med Android-telefon fungerer fint; be dem gjerne følge et par kontorer og si fra om feil.
 5. **Oversikt → Søk om produksjonstilgang**, og svar på spørsmålene om testen.
