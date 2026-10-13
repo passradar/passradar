@@ -28,13 +28,20 @@ Personvernerklæringen har dermed en offentlig adresse som Google Play kan lenke
 
 ## 4. Signeringsnøkkel
 
-Google Play bruker *Play App Signing*: Google holder selve signeringsnøkkelen, og du signerer opplastingene med en **opplastingsnøkkel**.
+Google Play bruker *Play App Signing*: Google holder selve signeringsnøkkelen, og du signerer opplastingene med en **opplastingsnøkkel**. Den samme nøkkelen signerer APK-ene på GitHub.
 
-```bash
-keytool -genkeypair -v -keystore release.jks -alias passradar -keyalg RSA -keysize 4096 -validity 10000
+`keytool` følger med Java. På Windows ligger den i `bin`-mappa til Java-installasjonen og er ofte ikke i PATH, så bruk hele stien. Kjør kommandoen i prosjektmappa, så havner nøkkelen der bygget leter etter den (PowerShell):
+
+```powershell
+cd C:\Passvarsling
+& "$env:LOCALAPPDATA\Programs\jdk-21\bin\keytool.exe" -genkeypair -v -keystore release.jks -alias passradar -keyalg RSA -keysize 4096 -validity 10000
 ```
 
-Lag `keystore.properties` i prosjektmappa (den er i `.gitignore`, så den havner ikke på GitHub):
+Har du Android Studio, finnes den også i `C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe`.
+
+`keytool` spør etter et passord (to ganger), navn, organisasjon, by og landkode (`NO`), og til slutt om alt stemmer (`yes`). Nøkkelfila bruker samme passord for nøkkelen, så de to passordene under blir like.
+
+Lag så `keystore.properties` i prosjektmappa (den og `release.jks` er i `.gitignore`, så de havner ikke på GitHub):
 
 ```properties
 storeFile=release.jks
@@ -43,7 +50,7 @@ keyAlias=passradar
 keyPassword=…
 ```
 
-Ta sikkerhetskopi av `release.jks` og passordene et trygt sted. Mister du opplastingsnøkkelen, kan Google tilbakestille den, men det tar tid.
+**Ta sikkerhetskopi** av `release.jks` og passordet et trygt sted, for eksempel i en passordbehandler. Mister du nøkkelen, kan Google tilbakestille opplastingsnøkkelen for Play, men brukere som har appen fra GitHub eller F-Droid, må avinstallere og installere på nytt for å få oppdateringer.
 
 > Apper fra Google Play blir signert med Googles nøkkel, APK-er fra GitHub med din. Android godtar ikke oppdatering på tvers, så en bruker må holde seg til én kilde (eller avinstallere først).
 
@@ -107,7 +114,12 @@ Google krever at appen sikter mot en nyere Android-versjon omtrent hvert år: fr
 
 ## 10. Gratis alternativer
 
-- **GitHub Releases:** Lag en tagg (`git tag v1.1.0 && git push --tags`), så bygger `.github/workflows/release.yml` en signert APK og legger den ut. Hvilke hemmeligheter arbeidsflyten trenger, står øverst i fila.
+- **GitHub Releases:** Legg nøkkelen inn som hemmeligheter i repoet under *Settings → Secrets and variables → Actions → New repository secret*:
+  - `SIGNING_KEYSTORE_BASE64`: nøkkelfila som tekst. Denne PowerShell-kommandoen kopierer den til utklippstavla: `[Convert]::ToBase64String([IO.File]::ReadAllBytes("C:\Passvarsling\release.jks")) | Set-Clipboard`
+  - `SIGNING_STORE_PASSWORD` og `SIGNING_KEY_PASSWORD`: passordet
+  - `SIGNING_KEY_ALIAS`: `passradar`
+
+  Deretter lager en tagg en signert APK og en utgivelse automatisk: `git tag v1.1.0` og `git push origin v1.1.0`.
 - **F-Droid:** Appen bruker ingen Google-tjenester eller sporingsbiblioteker og har metadata i `fastlane/`, så den passer. Send den inn etter [F-Droids veiledning](https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/). F-Droid bygger appen selv fra kildekoden.
 - **IzzyOnDroid:** et F-Droid-kompatibelt arkiv som henter APK-en fra GitHub Releases. Raskere å komme inn i enn F-Droid.
 
