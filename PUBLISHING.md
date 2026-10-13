@@ -56,7 +56,21 @@ keyPassword=…
 
 ## 5. Bygg app-pakken
 
-```bash
+Bygget trenger Java. Står det «JAVA_HOME is not set», må du fortelle PowerShell hvor Java ligger. Dette gjelder bare vinduet du står i:
+
+```powershell
+$env:JAVA_HOME = "$env:LOCALAPPDATA\Programs\jdk-21"
+```
+
+Vil du slippe det hver gang, kan du lagre det for brukeren din og åpne et nytt PowerShell-vindu etterpå:
+
+```powershell
+[Environment]::SetEnvironmentVariable("JAVA_HOME", "$env:LOCALAPPDATA\Programs\jdk-21", "User")
+```
+
+Bygg så app-pakken fra prosjektmappa:
+
+```powershell
 ./gradlew bundleRelease -Pplay
 ```
 
