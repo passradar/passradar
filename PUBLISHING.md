@@ -99,11 +99,12 @@ Legg også til engelsk (en-US) som oversettelse med filene i `en-US/`. Kategori:
 
 - **Personvernerklæring:** lenken fra steg 2.
 - **Annonser:** Nei.
-- **Apptilgang:** Alle funksjoner er tilgjengelige uten innlogging.
+- **Apptilgang:** Ingen innlogging, men politiets timebestilling svarer bare på forbindelser fra norske nettverk. Velg at noe av funksjonaliteten er begrenset, og forklar det for Googles kontrollører, som ofte sitter i utlandet (lim inn teksten under i feltet for annen informasjon):
+  > Passradar needs no login. It shows free passport appointments from the Norwegian Police's public booking service (pass-og-id.politiet.no). That service only accepts connections from Norwegian networks, so outside Norway the app shows the list of offices and the map, but no appointment times. To test all features, please use a Norwegian IP address, for example a VPN server in Norway.
 - **Innholdsvurdering:** fyll ut spørreskjemaet; ingenting av vold, sex, rus eller pengespill → laveste aldersgrense.
 - **Målgruppe:** 18+ (appen er ikke laget for barn).
 - **Datasikkerhet:** *Ingen data samles inn eller deles.* Begrunnelse: posisjonen behandles bare på telefonen, og forespørslene til politiet inneholder ingen opplysninger om brukeren. Ingen analyse, reklame eller krasjrapportering.
-- **Offentlige apper:** Appen er ikke laget av eller for en myndighet. Beskrivelsen sier allerede at den er uavhengig av Politiet, og lenker til kilden (politiets timebestilling), slik Google krever for apper som viser offentlig informasjon.
+- **Offentlige apper:** Appen er ikke laget av eller for en myndighet. Google krever da en tydelig ansvarsfraskrivelse og en *fungerende* lenke til den offisielle kilden i beskrivelsen. Beskrivelsene i `fastlane/` begynner med ansvarsfraskrivelsen og lenker til politiets side om timebestilling på `www.politiet.no`. Ikke lenk til `pass-og-id.politiet.no`: den kan ikke åpnes fra utlandet, og Google avviste appen for en «ødelagt kildelenke» da den lenken ble brukt.
 - Nyheter, helse, finans, forgrunnstjenester, bakgrunnsposisjon: ikke relevant / nei.
 
 ## 7. Lukket test (12 testere i 14 dager)

@@ -1,3 +1,5 @@
+<b>Not an official app:</b> Passradar is made independently and does not represent the Norwegian Police or any other government entity.
+
 Appointments at the Norwegian police's passport and ID offices are often booked up for weeks or months, but cancellations happen all the time. Passradar follows the offices you can travel to and tells you when an earlier appointment becomes free.
 
 <b>Features</b>
@@ -15,6 +17,7 @@ Appointments at the Norwegian police's passport and ID offices are often booked 
 </ul>
 
 <b>Free and private</b>
-No server, no account, no ads and no tracking. Your phone checks the police's public appointment booking itself, never more often than every 15 minutes and only for the offices you follow. Your approximate location is only used to work out distances and never leaves the phone. You book the appointment yourself on the police's website.
+Open source (GPL-3.0), no server, no account, no ads and no tracking. Your phone checks the police's public appointment booking itself, never more often than every 15 minutes and only for the offices you follow. Your approximate location is only used to work out distances and never leaves the phone. You book the appointment yourself on the police's website.
 
-Passradar is open source (GPL-3.0) and independent – not affiliated with or endorsed by the Norwegian Police. Source of the appointment data: the police's booking site, https://pass-og-id.politiet.no/timebestilling/
+<b>Source</b>
+Free appointments, offices and services come from the Norwegian Police's public booking service for passports and ID cards. The police's own page about booking: https://www.politiet.no/tjenester/pass-og-id-kort/bestille-endre-eller-avbestille-time-til-pass-og-id-kort

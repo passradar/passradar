@@ -1,3 +1,5 @@
+<b>Ikke en offisiell app:</b> Passradar er laget uavhengig av Politiet og representerer ikke Politiet eller noen annen offentlig myndighet.
+
 Det er ofte fullbooket hos politiets pass- og ID-kontorer i uker og måneder, men avbestillinger skjer hele tiden. Passradar følger kontorene du kan reise til, og sier fra når det dukker opp en tidligere ledig time.
 
 <b>Funksjoner</b>
@@ -15,6 +17,7 @@ Det er ofte fullbooket hos politiets pass- og ID-kontorer i uker og måneder, me
 </ul>
 
 <b>Gratis og privat</b>
-Appen har ingen server, ingen konto, ingen reklame og ingen sporing. Telefonen sjekker selv politiets offentlige timebestilling, aldri oftere enn hvert 15. minutt og bare for kontorene du følger. Posisjonen din (omtrentlig) brukes bare til å regne ut avstander, og forlater aldri telefonen. Du bestiller timen selv på politiets nettside.
+Appen har åpen kildekode (GPL-3.0), ingen server, ingen konto, ingen reklame og ingen sporing. Telefonen sjekker selv politiets offentlige timebestilling, aldri oftere enn hvert 15. minutt og bare for kontorene du følger. Posisjonen din (omtrentlig) brukes bare til å regne ut avstander, og forlater aldri telefonen. Du bestiller timen selv på politiets nettside.
 
-Passradar har åpen kildekode (GPL-3.0) og er uavhengig – ikke tilknyttet eller godkjent av Politiet. Kilde for ledige timer: politiets timebestilling, https://pass-og-id.politiet.no/timebestilling/
+<b>Kilde</b>
+Ledige timer, kontorer og tjenester hentes fra politiets offentlige timebestilling for pass og ID-kort. Politiets egen side om timebestilling: https://www.politiet.no/tjenester/pass-og-id-kort/bestille-endre-eller-avbestille-time-til-pass-og-id-kort
