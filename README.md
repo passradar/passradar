@@ -13,6 +13,16 @@ Det er ofte fullbooket i uker og måneder, men avbestillinger skjer hele tiden. 
   <img src="fastlane/metadata/android/nb-NO/images/phoneScreenshots/7_morkt.png" width="200" alt="Mørkt tema">
 </p>
 
+## Bli tester på Google Play
+
+Passradar er i lukket test på Google Play. For å slippe appen fri til alle krever Google minst 12 testere som har den i 14 dager. Har du en Android-telefon, hjelper du til slik:
+
+1. Bli med i testgruppa: [groups.google.com/g/passradar-testere](https://groups.google.com/g/passradar-testere)
+2. Åpne [play.google.com/apps/testing/io.github.passradar](https://play.google.com/apps/testing/io.github.passradar) og trykk «Become a tester»
+3. Installer appen fra [Google Play](https://play.google.com/store/apps/details?id=io.github.passradar), og behold den i minst 14 dager
+
+Bruk samme Google-konto som på telefonen. Butikklenken virker først når du har blitt tester. Feil og ønsker tas imot som [saker (issues)](../../issues).
+
 ## Funksjoner
 
 - **Varsel** når det blir ledig en tidligere time ved kontorene du følger – følg så mange du vil
@@ -45,6 +55,7 @@ Appen er laget fra bunnen av ut fra politiets offentlige nettside, og bygger ikk
 - Android kan utsette eller stoppe bakgrunnssjekker for å spare strøm. Appen spør én gang om å få kjøre i bakgrunnen, og kortet «Sørg for at varslene kommer fram» (under *Varsler* og *Innstillinger*) viser hva som eventuelt mangler.
 - Appen sjekker høyst hvert 15. minutt, så en avbestilt time kan bli tatt av noen andre før du rekker den.
 - Grensesnittet appen leser fra er offentlig, men ikke en dokumentert tjeneste fra politiet. Endrer politiet timebestillingen, må appen oppdateres.
+- Politiets timebestilling svarer bare på forbindelser fra Norge. I utlandet viser appen kontorene og kartet, men ingen ledige timer.
 
 ## Personvern
 
@@ -52,7 +63,7 @@ Ingen konto, ingen sporing, ingen reklame, ingen analyse. Appen kontakter bare `
 
 ## Installere
 
-Last ned APK-filen fra [Releases](../../releases) og åpne den på telefonen. Du må tillate installasjon fra ukjente kilder for nettleseren eller filbehandleren du bruker.
+Bli tester på Google Play (se [over](#bli-tester-på-google-play)), eller last ned APK-filen fra [Releases](../../releases) og åpne den på telefonen. Da må du tillate installasjon fra ukjente kilder for nettleseren eller filbehandleren du bruker. Versjonene fra Google Play og GitHub er signert ulikt, så bytter du kilde, må du avinstallere først.
 
 Etter installasjonen:
 
@@ -125,5 +136,7 @@ Passradar er uavhengig og ikke tilknyttet eller godkjent av Politiet. Data komme
 - Light and dark theme, Material 3 with a "liquid glass" look
 - Helps you turn off battery optimisation, Battery Saver and vendor app killers so alerts arrive on time
 - Android 5.0+, no server, no tracking. Your phone checks the police's public booking API itself, at most every 15 minutes and only for offices you follow. See the [privacy policy](PRIVACY.md).
+
+**Help test it on Google Play:** join [the testers group](https://groups.google.com/g/passradar-testere), opt in at [play.google.com/apps/testing/io.github.passradar](https://play.google.com/apps/testing/io.github.passradar), then install it from [Google Play](https://play.google.com/store/apps/details?id=io.github.passradar) and keep it for at least 14 days. The police's booking service only answers from Norwegian networks.
 
 Build with `./gradlew assembleDebug`; see [PUBLISHING.md](PUBLISHING.md) (Norwegian) for releases. Licensed under GPL-3.0-or-later. Not affiliated with the Norwegian Police.
