@@ -1,0 +1,37 @@
+[
+ {
+  "publicId": "6e3b1c743284fae07b184c855d2044ba642a5bfb579771caa7207c1d204660ea",
+  "name": "Fødselsnummer til norske statsborgere født i utlandet",
+  "custom": "{\"names\":{\"nb\":\"Fødselsnummer til norske statsborgere født i utlandet\",\"en\":\"National ID number for Norwegian citizens born abroad\"}}",
+  "duration": 30,
+  "additionalDuration": 60
+ },
+ {
+  "publicId": "af8dff2199e23e84b3c0172c4b04b45dfcf5e266e5b489cdca32c6fe88f603ef",
+  "name": "Hente ferdig pass og/eller ID-kort",
+  "custom": "{\"names\":{\"nb\":\"  Hente ferdig pass og/eller ID-kort\",\"en\":\"  Pick up passport and/or ID card\"}}",
+  "duration": 5,
+  "additionalDuration": 0
+ },
+ {
+  "publicId": "99a6d209e4b1ce63eead63f6e1e534b1530b2ad2762d4173ba82421cf81874d6",
+  "name": "ID-kort for EU/EØS/EFTA-borgere ",
+  "custom": "{\"names\":{\"nb\":\"ID-kort for EU/EØS/EFTA-borgere\",\"en\":\"ID card for  EU/EEA/EFTA citizens\"}}",
+  "duration": 25,
+  "additionalDuration": 15
+ },
+ {
+  "publicId": "80086afd2b953ff08ab6368bb95efd300024953432e6938861bab6874c8db2d4",
+  "name": "ID-kort for tredjelandsborgere",
+  "custom": "{\"names\":{\"nb\":\"ID-kort for tredjelandsborgere\",\"en\":\"ID card for third-country citizens\"}}",
+  "duration": 30,
+  "additionalDuration": 10
+ },
+ {
+  "publicId": "9c9f4070899d6d3f85e2df162aae8e981fb79a81bc7b3f6bf6fb575542a3c4a4",
+  "name": "Pass og/eller ID-kort til norske statsborgere",
+  "custom": "{\"cost\":{\"adult\":{\"default\":\"\"},\"child\":{\"default\":\"\"}},\"names\":{\"nb\":\"    Pass og/eller ID-kort til norske statsborgere\",\"en\":\"    Passport and/or ID card for Norwegian citizens\"}}",
+  "duration": 10,
+  "additionalDuration": 5
+ }
+]

@@ -43,8 +43,9 @@ class Repository(
     /** When the next background check is planned, if any. */
     val nextCheck: Flow<Long?> = scheduler.nextRun
 
+    /** The live list once fetched; until then (or if the booking system can't be reached) the bundled one. */
     val services: Flow<List<ServiceType>> = store.services.map { cache ->
-        cache?.services?.takeIf { it.isNotEmpty() } ?: listOf(ServiceType.Passport)
+        cache?.services?.takeIf { it.isNotEmpty() } ?: bundled.services.ifEmpty { listOf(ServiceType.Passport) }
     }
 
     fun serviceFor(settings: AppSettings, services: List<ServiceType>): ServiceType =

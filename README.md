@@ -103,15 +103,16 @@ Varsellogikken er også dekket av enhetstester i `app/src/test`.
 | `app/src/main/java/io/github/passradar/work/` | Bakgrunnssjekk med WorkManager |
 | `app/src/main/java/io/github/passradar/ui/` | Skjermene (Jetpack Compose); `ui/glass/` er glass-effekten |
 | `app/src/main/assets/offices.json` | Kontorliste med kartposisjoner |
+| `app/src/main/assets/services.json` | Tjenestelisten, til appen har fått hentet den fra politiet |
 | `app/src/play/AndroidManifest.xml` | Det som skiller Google Play-bygget fra de andre |
 | `fastlane/metadata/android/` | Butikktekster, ikon, funksjonsgrafikk og skjermbilder |
-| `tools/update_offices.py` | Oppdaterer kontorlisten (politiet + Kartverkets adresse-API) |
+| `tools/update_offices.py` | Oppdaterer kontor- og tjenestelisten (politiet + Kartverkets adresse-API) |
 | `tools/make_icons.py` | Tegner PNG-ikonene for gamle Android-versjoner |
 | `tools/make_feature_graphic.ps1` | Tegner funksjonsgrafikken til Google Play |
 
 ### Vedlikehold
 
-- **Nye eller nedlagte kontorer:** kjør `python tools/update_offices.py`. Appen henter også kontorlisten selv én gang i uka, men trenger fila for kartposisjoner.
+- **Nye eller nedlagte kontorer eller tjenester:** kjør `python tools/update_offices.py`. Appen henter også listene selv (tjenestene hver dag, kontorene hver uke), men trenger filene for kartposisjoner og for at alle tjenestene kan velges før første henting har lyktes.
 - **Bibliotekversjoner:** AndroidX-bibliotekene er låst til de siste versjonene som støtter Android 5.0 (se kommentaren i `gradle/libs.versions.toml`). Nyere versjoner krever Android 6 eller 7.
 - **Gamle telefoner:** Android 7.1 og eldre stoler ikke på rotsertifikatene til politiets server og Kartverket. Appen har dem med (`res/raw`) og bruker dem bare der (`net/LegacyTls.kt`).
 - **Kildekodelenke i appen:** sett `passradar.sourceUrl` i `gradle.properties`.

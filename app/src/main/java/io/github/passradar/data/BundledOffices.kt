@@ -8,9 +8,19 @@ import kotlinx.serialization.json.Json
 /**
  * The office list shipped with the app (assets/offices.json, made by
  * tools/update_offices.py). Gives every office a map position and is used
- * whenever the live list can't be fetched.
+ * whenever the live list can't be fetched. The service list (services.json)
+ * comes along, so every service can be picked before the live one is fetched.
  */
 class BundledOffices(private val context: Context, private val json: Json) {
+
+    val services: List<ServiceType> by lazy {
+        try {
+            context.assets.open("services.json").use { QmaticParser.services(it.readBytes().toString(Charsets.UTF_8)) }
+        } catch (e: Exception) {
+            Log.e("Passradar", "Could not read bundled service list", e)
+            emptyList()
+        }
+    }
 
     val all: List<Office> by lazy {
         try {

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Refreshes app/src/main/assets/offices.json.
+"""Refreshes app/src/main/assets/offices.json and services.json.
 
-The file is bundled with the app. It gives the map a position for every
-passport/ID office and works as an offline fallback for the office list.
+The files are bundled with the app. offices.json gives the map a position for
+every passport/ID office and works as an offline fallback for the office list;
+services.json lets every service be picked before the live list has been fetched.
 
   * Offices: the police's public appointment booking (the same data the
     booking page at pass-og-id.politiet.no uses), for every service.
@@ -23,6 +24,9 @@ QMATIC = "https://pass-og-id.politiet.no/qmaticwebbooking/rest/schedule/"
 GEONORGE = "https://ws.geonorge.no/"
 USER_AGENT = "Passradar office list updater (open source)"
 OUT = pathlib.Path(__file__).resolve().parent.parent / "app" / "src" / "main" / "assets" / "offices.json"
+SERVICES_OUT = OUT.with_name("services.json")
+# What the app reads from each service (see QmaticParser.services).
+SERVICE_FIELDS = ("publicId", "name", "custom", "duration", "additionalDuration")
 
 
 def get_json(url, attempts=4):
@@ -106,9 +110,16 @@ def geocode(street, zip_code, city, office_name):
     return None, "missing"
 
 
+def write_services(services):
+    kept = [{key: service[key] for key in SERVICE_FIELDS if key in service} for service in services]
+    SERVICES_OUT.write_text(json.dumps(kept, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"Wrote {len(kept)} services to {SERVICES_OUT}")
+
+
 def main():
     fresh = "--fresh" in sys.argv  # geocode everything again instead of reusing positions
     services = get_json(QMATIC + "services;validate=true")
+    write_services(services)
     offices, offered = {}, {}
     for service in services:
         for branch in as_list(get_json(QMATIC + "branches/available;servicePublicId=" + service["publicId"])):

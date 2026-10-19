@@ -1,0 +1,2 @@
+Alerts about free appointments now vibrate as well as play a sound (on Android 7 and older they used to be silent).
+Every service can be picked in Settings, even if the app couldn't reach the police's booking system the first time it was opened.

@@ -1,0 +1,2 @@
+Varslene om ledige timer vibrerer nå i tillegg til å gi lyd (på Android 7 og eldre var de stille før).
+Alle tjenestene kan velges under Innstillinger, også om appen ikke fikk kontakt med politiets timebestilling første gang den ble åpnet.

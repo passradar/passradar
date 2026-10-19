@@ -31,11 +31,16 @@ class Notifier(context: Context) {
 
     fun createChannel() {
         val res = context.withAppLanguage().resources
-        val channel = NotificationChannelCompat.Builder(CHANNEL_NEW_SLOTS, NotificationManagerCompat.IMPORTANCE_HIGH)
+        // Carry over what the user chose for the channel this one replaces: blocked, quieter, another sound.
+        val old = manager.getNotificationChannelCompat(OLD_CHANNEL_NEW_SLOTS)
+        val channel = NotificationChannelCompat.Builder(CHANNEL_NEW_SLOTS, old?.importance ?: NotificationManagerCompat.IMPORTANCE_HIGH)
             .setName(res.getString(R.string.channel_slots_name))
             .setDescription(res.getString(R.string.channel_slots_description))
+            .setVibrationEnabled(true)
+            .apply { if (old != null) setSound(old.sound, old.audioAttributes) }
             .build()
         manager.createNotificationChannel(channel)
+        if (old != null) manager.deleteNotificationChannel(OLD_CHANNEL_NEW_SLOTS)
     }
 
     fun canNotify(): Boolean {
@@ -102,6 +107,8 @@ class Notifier(context: Context) {
         .setSmallIcon(R.drawable.ic_stat_notify)
         .setColor(ContextCompat.getColor(context, R.color.brand))
         .setPriority(NotificationCompat.PRIORITY_HIGH)
+        // Android 7.1 and older have no channels: without these the alert is silent and doesn't pop up.
+        .setDefaults(NotificationCompat.DEFAULT_SOUND or NotificationCompat.DEFAULT_VIBRATE)
         .setCategory(NotificationCompat.CATEGORY_REMINDER)
         .setAutoCancel(true)
 
@@ -116,7 +123,10 @@ class Notifier(context: Context) {
     }
 
     private companion object {
-        const val CHANNEL_NEW_SLOTS = "new_slots"
+        // An app can't change a channel's sound or vibration once it exists, so turning
+        // vibration on (1.2.1) took a new channel in place of the first one.
+        const val CHANNEL_NEW_SLOTS = "new_slots_v2"
+        const val OLD_CHANNEL_NEW_SLOTS = "new_slots"
         const val GROUP = "new_slots"
         const val SUMMARY_ID = 1
         const val MAX_TIMES = 8
