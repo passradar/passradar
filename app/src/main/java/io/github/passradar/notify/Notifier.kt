@@ -21,6 +21,7 @@ import io.github.passradar.data.PolitietApi
 import io.github.passradar.domain.NewSlots
 import io.github.passradar.domain.WaitTime
 import io.github.passradar.ui.Format
+import io.github.passradar.ui.withAppLanguage
 import java.time.LocalDate
 import java.util.Locale
 
@@ -29,9 +30,10 @@ class Notifier(context: Context) {
     private val manager = NotificationManagerCompat.from(this.context)
 
     fun createChannel() {
+        val res = context.withAppLanguage().resources
         val channel = NotificationChannelCompat.Builder(CHANNEL_NEW_SLOTS, NotificationManagerCompat.IMPORTANCE_HIGH)
-            .setName(context.getString(R.string.channel_slots_name))
-            .setDescription(context.getString(R.string.channel_slots_description))
+            .setName(res.getString(R.string.channel_slots_name))
+            .setDescription(res.getString(R.string.channel_slots_description))
             .build()
         manager.createNotificationChannel(channel)
     }
@@ -46,7 +48,7 @@ class Notifier(context: Context) {
     @SuppressLint("MissingPermission") // checked in canNotify()
     fun showNewSlots(found: List<Pair<NewSlots, List<String>>>, serviceId: String, today: LocalDate) {
         if (found.isEmpty() || !canNotify()) return
-        val res = context.resources
+        val res = context.withAppLanguage().resources
         val locale = ConfigurationCompat.getLocales(res.configuration)[0] ?: Locale.getDefault()
         val grouped = found.size > 1 && Build.VERSION.SDK_INT >= 24
 

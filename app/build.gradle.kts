@@ -28,8 +28,8 @@ android {
         applicationId = "io.github.passradar"
         minSdk = 21
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.1.0"
+        versionCode = 3
+        versionName = "1.2.0"
 
         buildConfigField("String", "SOURCE_URL", "\"$sourceUrl\"")
     }
@@ -83,6 +83,14 @@ android {
     androidResources {
         localeFilters += listOf("en", "nb")
         generateLocaleConfig = true
+    }
+
+    // Google Play would otherwise only install the phone's language, and the
+    // language can be changed in the app's settings.
+    bundle {
+        language {
+            enableSplit = false
+        }
     }
 
     // Keeps the APK free of Google's encrypted dependency metadata (F-Droid requirement).

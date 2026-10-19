@@ -1,6 +1,7 @@
 package io.github.passradar.ui
 
 import android.os.Build
+import androidx.activity.compose.LocalActivity
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -95,6 +96,7 @@ fun SettingsScreen(vm: AppViewModel, bottomSpace: Dp) {
             item { SectionTitle(stringResource(R.string.settings_appearance)) }
             item {
                 GroupCard {
+                    LanguageChoice()
                     val modes = listOf(ThemeMode.System to R.string.theme_system, ThemeMode.Light to R.string.theme_light, ThemeMode.Dark to R.string.theme_dark)
                     Text(stringResource(R.string.settings_theme), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(start = 20.dp, top = 8.dp))
                     SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 10.dp)) {
@@ -225,5 +227,33 @@ fun SettingsScreen(vm: AppViewModel, bottomSpace: Dp) {
             }
         }
         GlassTitleBar(backdrop, stringResource(R.string.tab_settings), visible = scrolled)
+    }
+}
+
+/** The phone's language, Norwegian or English. The screen restarts in the new language. */
+@Composable
+private fun LanguageChoice() {
+    val activity = LocalActivity.current ?: return
+    var language by remember { mutableStateOf(activity.appLanguage()) }
+    val options = listOf(
+        AppLanguage.System to stringResource(R.string.language_system),
+        AppLanguage.Norwegian to stringResource(R.string.language_norwegian),
+        AppLanguage.English to stringResource(R.string.language_english),
+    )
+    Text(stringResource(R.string.settings_language), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(start = 20.dp, top = 8.dp))
+    SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 10.dp)) {
+        options.forEachIndexed { index, (option, label) ->
+            SegmentedButton(
+                selected = language == option,
+                onClick = {
+                    if (language != option) {
+                        language = option
+                        activity.setAppLanguage(option)
+                    }
+                },
+                shape = SegmentedButtonDefaults.itemShape(index, options.size),
+                label = { Text(label) },
+            )
+        }
     }
 }

@@ -3,6 +3,7 @@ package io.github.passradar
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
@@ -20,14 +21,21 @@ import io.github.passradar.ui.AppViewModel
 import io.github.passradar.ui.Tab
 import io.github.passradar.ui.theme.PassradarTheme
 import io.github.passradar.ui.letContentFrameTakeFocus
+import io.github.passradar.ui.moveAppLanguageToSystem
+import io.github.passradar.ui.withAppLanguage
 
 class MainActivity : ComponentActivity() {
 
     private val viewModel: AppViewModel by viewModels { AppViewModel.Factory }
 
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(newBase.withAppLanguage())
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
+        if (Build.VERSION.SDK_INT >= 33) moveAppLanguageToSystem()
         if (savedInstanceState == null) handleIntent(intent)
         setContent {
             val settings by viewModel.settings.collectAsStateWithLifecycle()

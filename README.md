@@ -35,7 +35,7 @@ Bruk samme Google-konto som på telefonen. Butikklenken virker først når du ha
 - **Lyst og mørkt tema**, Material 3 med «liquid glass» (uskarpt glass på Android 12+, ugjennomsiktig på eldre)
 - Hjelp til å slå av **batterioptimalisering og strømsparing**, med lenker rett til riktig innstilling – også Samsungs «apper i hvilemodus» og tilsvarende hos andre produsenter
 - Virker på **Android 5.0 og nyere**, testet på Android 5 og Android 17
-- Norsk og engelsk
+- Norsk og engelsk: følger språket på telefonen, eller velg selv under *Innstillinger*
 
 ## Slik virker det
 
@@ -134,6 +134,7 @@ Passradar er uavhengig og ikke tilknyttet eller godkjent av Politiet. Data komme
 - Waiting time for every office, with followed offices first and the rest sorted by distance ("Near me" by default)
 - Colour-coded map, calendar of free dates and times, and a link to the police's booking page with office and service preselected
 - Light and dark theme, Material 3 with a "liquid glass" look
+- Norwegian and English: follows the phone's language, or pick one in Settings
 - Helps you turn off battery optimisation, Battery Saver and vendor app killers so alerts arrive on time
 - Android 5.0+, no server, no tracking. Your phone checks the police's public booking API itself, at most every 15 minutes and only for offices you follow. See the [privacy policy](PRIVACY.md).
 

@@ -214,7 +214,11 @@
     </plurals>
 
     <!-- Settings -->
-    <string name="settings_appearance">Utseende</string>
+    <string name="settings_appearance">Språk og utseende</string>
+    <string name="settings_language">Språk</string>
+    <string name="language_system">System</string>
+    <string name="language_norwegian" translatable="false">Norsk</string>
+    <string name="language_english" translatable="false">English</string>
     <string name="settings_theme">Tema</string>
     <string name="theme_system">System</string>
     <string name="theme_light">Lys</string>
